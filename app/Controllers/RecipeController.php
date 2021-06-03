@@ -63,7 +63,7 @@ class RecipeController extends BaseController
 		$hisRating = $grad->where($data2)->findAll();
 
 
-		$this->twig->display('templates/detailrecipe.html', ['user' => $user, 'recipes' => $recipes, 'prep' => $Prep, 'compose' => $compose, 'comment' => $comment, 'ratting' => $hisRating]);
+		$this->twig->display('templates/detailRecipe.html', ['user' => $user, 'recipes' => $recipes, 'prep' => $Prep, 'compose' => $compose, 'comment' => $comment, 'ratting' => $hisRating]);
 	}
 
 
