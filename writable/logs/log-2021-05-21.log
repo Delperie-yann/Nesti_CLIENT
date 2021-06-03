@@ -1,0 +1,462 @@
+CRITICAL - 2021-05-21 13:50:11 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(34): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-21 13:50:35 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-21 13:50:55 --> Call to undefined function App\Controllers\towncontrole()
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ProfileController->editProfile('1')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-21 13:51:10 --> Undefined variable: idTown
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ProfileController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ProfileController->editProfile('1')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-21 13:53:49 --> Access to undeclared static property: App\Controllers\ProfileController::$this
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->register()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-21 13:54:31 --> Non-static method App\Controllers\ProfileController::towncontrole() should not be called statically
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Non-static meth...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->register()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-21 13:55:12 --> Undefined variable: town
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->register()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-21 14:02:29 --> Undefined variable: encrypter
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-21 14:09:24 --> Can't use method return value in write context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-21 14:10:13 --> Can't use method return value in write context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-21 14:11:19 --> Undefined variable: encrypter
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-21 14:11:36 --> Undefined index: login
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-21 14:14:32 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-21 14:15:26 --> Undefined variable: encrypter
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-21 14:15:53 --> Undefined variable: encrypter
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(48): App\Controllers\UserController::setLoggedInUser(Object(App\Entities\Users), '123')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-21 14:16:11 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Encryption\Handlers\OpenSSLHandler.php(118): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(83): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(48): App\Controllers\UserController::setLoggedInUser(Object(App\Entities\Users), '123')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-21 14:17:53 --> syntax error, unexpected 'setcookie' (T_STRING)
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-21 14:18:01 --> syntax error, unexpected 'setcookie' (T_STRING)
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-21 14:18:19 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Encryption\Handlers\OpenSSLHandler.php(118): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(83): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(48): App\Controllers\UserController::setLoggedInUser(Object(App\Entities\Users), '123')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-21 14:19:20 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Encryption\Handlers\OpenSSLHandler.php(118): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(84): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(48): App\Controllers\UserController::setLoggedInUser(Object(App\Entities\Users), '123')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-05-21 14:22:07 --> mysqli_sql_exception: Duplicate entry 'totototot@hotmail.fr' for key 'email' in C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(119): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->register()
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-21 14:22:07 --> Duplicate entry 'totototot@hotmail.fr' for key 'email'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(119): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->register()
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-05-21 14:29:30 --> Too few arguments to function App\Entities\Users::isPassword(), 0 passed in C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php on line 43 and exactly 1 expected
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(43): App\Entities\Users->isPassword()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-21 14:36:07 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Encryption\Handlers\OpenSSLHandler.php(118): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(88): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(52): App\Controllers\UserController::setLoggedInUser(Object(App\Entities\Users), '123')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-21 14:39:30 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Encryption\Handlers\OpenSSLHandler.php(118): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(89): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(52): App\Controllers\UserController::setLoggedInUser(Object(App\Entities\Users), '123')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-21 14:40:46 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Encryption\Handlers\OpenSSLHandler.php(118): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(89): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(52): App\Controllers\UserController::setLoggedInUser(Object(App\Entities\Users), '123')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-21 14:41:14 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Encryption\Handlers\OpenSSLHandler.php(118): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(89): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(52): App\Controllers\UserController::setLoggedInUser(Object(App\Entities\Users), '123')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-21 14:43:24 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Encryption\Handlers\OpenSSLHandler.php(118): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(90): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(52): App\Controllers\UserController::setLoggedInUser(Object(App\Entities\Users), '123')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-21 14:47:03 --> Undefined variable: logdecrypt
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(52): App\Controllers\UserController::setLoggedInUser(Object(App\Entities\Users), '123')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-21 14:48:49 --> Too few arguments to function CodeIgniter\Encryption\Handlers\OpenSSLHandler::decrypt(), 0 passed in C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php on line 88 and at least 1 expected
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(88): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(52): App\Controllers\UserController::setLoggedInUser(Object(App\Entities\Users), '123')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-21 14:49:18 --> Undefined variable: logdecrypt
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(52): App\Controllers\UserController::setLoggedInUser(Object(App\Entities\Users), '123')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-21 14:49:34 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Encryption\Handlers\OpenSSLHandler.php(118): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(90): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(52): App\Controllers\UserController::setLoggedInUser(Object(App\Entities\Users), '123')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-21 14:50:43 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Encryption\Handlers\OpenSSLHandler.php(118): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(90): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(52): App\Controllers\UserController::setLoggedInUser(Object(App\Entities\Users), '123')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-21 14:51:11 --> Undefined variable: pasdecrypt
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(52): App\Controllers\UserController::setLoggedInUser(Object(App\Entities\Users), '123')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-21 14:51:36 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Encryption\Handlers\OpenSSLHandler.php(118): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(89): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(52): App\Controllers\UserController::setLoggedInUser(Object(App\Entities\Users), '123')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-21 14:52:19 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-21 14:53:17 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Encryption\Handlers\OpenSSLHandler.php(118): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(90): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(52): App\Controllers\UserController::setLoggedInUser(Object(App\Entities\Users), '123')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-21 14:54:53 --> Undefined variable: encrypter
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\SuggestController.php(12): App\Controllers\UserController::getLoggedInUser()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\SuggestController->index()
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuggestController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-21 15:29:13 --> Unknown "form_open" function.
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\ExpressionParser.php(455): Twig\ExpressionParser->getFunctionNodeClass('form_open', 6)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\ExpressionParser.php(235): Twig\ExpressionParser->getFunctionNode('form_open', 6)
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Parser.php(128): Twig\ExpressionParser->parseExpression()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\TokenParser\IfTokenParser.php(41): Twig\Parser->subparse(Array)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Parser.php(171): Twig\TokenParser\IfTokenParser->parse(Object(Twig\Token))
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\TokenParser\BlockTokenParser.php(47): Twig\Parser->subparse(Array, true)
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Parser.php(171): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Parser.php(84): Twig\Parser->subparse(NULL, false)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(479): Twig\Parser->parse(Object(Twig\TokenStream))
+#11 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(507): Twig\Environment->parse(Object(Twig\TokenStream))
+#12 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(348): Twig\Environment->compileSource(Object(Twig\Source))
+#13 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(309): Twig\Environment->loadTemplate('__TwigTemplate_...', 'templates/buy.h...')
+#14 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('templates/buy.h...')
+#15 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('templates/buy.h...', Array)
+#16 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('templates/buy.h...', Array)
+#17 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\BuyController.php(17): Kenjis\CI4Twig\Twig->display('templates/buy.h...', Array)
+#18 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\BuyController->index()
+#19 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BuyController))
+#20 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#21 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#22 {main}
+CRITICAL - 2021-05-21 16:22:59 --> syntax error, unexpected '/'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-21 16:23:23 --> syntax error, unexpected '^'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-21 16:23:29 --> syntax error, unexpected '{', expecting ')'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-21 16:24:57 --> Undefined index: password
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\BuyController.php(14): App\Controllers\UserController::getLoggedInUser()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\BuyController->index()
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BuyController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-21 16:24:59 --> Undefined index: password
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ArticleController.php(33): App\Controllers\UserController::getLoggedInUser()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ArticleController->detailsArticle('10')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-21 16:25:19 --> syntax error, unexpected '{', expecting ')'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-21 16:25:31 --> syntax error, unexpected '^'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-21 16:25:37 --> syntax error, unexpected '\' (T_NS_SEPARATOR), expecting ']'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-21 16:31:47 --> Call to undefined function App\Controllers\test_input()
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ProfileController->editProfile('76')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-21 16:43:58 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-21 16:44:27 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-21 16:56:22 --> filter_var() expects parameter 2 to be int, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filter_var() ex...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ProfileController.php(33): filter_var(0, 'userEmail', 274)
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ProfileController->editProfile('76')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-21 16:56:35 --> filter_var() expects parameter 2 to be int, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filter_var() ex...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ProfileController.php(33): filter_var(0, 'userEmail', 274)
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ProfileController->editProfile('76')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-21 16:57:48 --> filter_var() expects parameter 2 to be int, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filter_var() ex...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ProfileController.php(33): filter_var(0, 'userEmail', 274)
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ProfileController->editProfile('76')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}

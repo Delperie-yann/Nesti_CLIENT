@@ -1,0 +1,1331 @@
+CRITICAL - 2021-05-09 09:07:29 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 09:09:50 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 09:10:18 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 09:10:22 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 09:10:23 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 09:10:43 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 09:11:01 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 09:11:27 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 09:12:47 --> Undefined variable: login
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 09:13:14 --> Array to string conversion
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 09:14:06 --> Trying to get property 'jean' of non-object
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 09:14:22 --> Use of undefined constant login - assumed 'login' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 09:15:27 --> Undefined variable: db
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 09:16:24 --> Undefined property: App\Controllers\UserController::$jean
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 09:17:15 --> Call to undefined method App\Controllers\UserController::get_instance()
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 09:21:42 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 09:21:50 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 09:21:57 --> Undefined property: App\Controllers\UserController::$load
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 09:22:11 --> Undefined property: App\Controllers\UserController::$login
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 09:26:16 --> Call to a member function get_called_class() on array
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 09:26:42 --> Undefined offset: 2
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 09:26:54 --> Undefined offset: 2
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 09:27:11 --> Undefined offset: 2
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 09:27:25 --> Undefined offset: 2
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 09:29:45 --> Cannot call constructor
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 09:29:57 --> Undefined property: App\Controllers\UserController::$load
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 09:36:43 --> Call to undefined method App\Controllers\UserController::get_called_class()
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 09:37:47 --> Undefined property: App\Controllers\UserController::$input
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 09:38:40 --> Undefined property: App\Controllers\UserController::$input
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 09:39:27 --> Undefined property: App\Controllers\UserController::$input
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 09:43:04 --> Undefined variable: request
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 09:43:17 --> Call to a member function getPost() on array
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 09:43:49 --> Call to a member function getPost() on array
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 09:44:01 --> Call to undefined method stdClass::getPost()
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 09:44:44 --> Call to undefined method stdClass::category()
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 09:45:05 --> Call to undefined method stdClass::getCategory()
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 09:45:46 --> Call to undefined method stdClass::getResult()
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 09:47:08 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 09:48:03 --> Call to a member function getResult() on array
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 09:48:51 --> Call to a member function getResultArray() on array
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 09:50:30 --> Call to a member function getResultArray() on array
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 09:51:12 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 09:51:48 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 09:51:56 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 09:54:02 --> Undefined variable: use
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 09:54:26 --> Trying to get property 'firstName' of non-object
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 09:54:41 --> Trying to get property 'firstName' of non-object
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 10:00:10 --> Trying to get property 'firstName' of non-object
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 10:14:48 --> Undefined property: App\Controllers\UserController::$load
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 10:15:34 --> Undefined property: App\Controllers\UserController::$load
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 10:19:18 --> Undefined variable: key
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 10:30:59 --> password_hash() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(41): password_hash('')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-09 10:31:04 --> password_hash() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(41): password_hash('123')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-09 10:31:15 --> password_hash() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(41): password_hash('123')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-09 10:39:55 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 10:42:26 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 10:42:32 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 10:43:51 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 10:47:12 --> Undefined property: App\Controllers\UserController::$form_validation
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 114, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->loginValidation()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 10:48:11 --> Undefined property: App\Controllers\UserController::$form_validation
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 113, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->loginValidation()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 10:49:10 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 10:49:19 --> Undefined property: App\Controllers\UserController::$input
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->loginValidation()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 10:51:36 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 11:03:13 --> Call to undefined function App\Controllers\canLogin()
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 11:03:31 --> Call to undefined function App\Controllers\canLogin()
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 11:04:25 --> Call to undefined method App\Controllers\UserController::canLogin()
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 11:04:47 --> Call to a member function canLogin() on array
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 11:05:04 --> Call to a member function canLogin() on array
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 11:05:21 --> Call to undefined method stdClass::canLogin()
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 11:09:15 --> Undefined property: App\Controllers\UserController::$twig
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 11:09:35 --> Call to undefined method stdClass::canLogin()
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 11:10:59 --> Undefined property: App\Controllers\UserController::$input
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 11:13:02 --> Undefined property: App\Controllers\UserController::$input
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 11:15:28 --> password_verify() expects exactly 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_verify...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(46): password_verify('$2y$10$LHoOx.v5...')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-09 11:19:18 --> Undefined property: App\Controllers\UserController::$input
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 11:22:43 --> Undefined variable: model
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 11:22:59 --> There is no data to insert.
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\BaseModel.php(735): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(30): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 11:31:42 --> Undefined property: App\Controllers\UserController::$input
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 11:41:25 --> Undefined property: App\Controllers\UserController::$input
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 11:57:50 --> Undefined variable: key
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 12:00:07 --> Undefined index: User
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 12:00:19 --> Undefined index: Users
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 12:06:44 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 12:07:44 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 12:08:20 --> Call to a member function isPassword() on array
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 12:09:19 --> Undefined variable: decrypted_string
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 12:10:09 --> Trying to get property 'passwordHash' of non-object
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 12:10:36 --> Undefined variable: decrypted_string
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 12:12:37 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 12:12:47 --> Call to undefined method stdClass::isPassword()
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 12:15:30 --> Call to a member function isPassword() on null
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 12:15:38 --> Call to undefined method stdClass::isPassword()
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 12:20:04 --> Call to undefined method stdClass::isPassword()
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 12:20:24 --> Call to a member function isPassword() on string
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 12:21:35 --> Call to undefined method App\Controllers\UserController::isPassword()
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 12:22:19 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 12:22:40 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 12:25:26 --> Undefined property: stdClass::$password
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 12:25:40 --> Call to undefined method stdClass::isPassword()
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 12:26:35 --> Call to undefined method stdClass::isPassword()
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 12:27:01 --> Call to undefined function App\Controllers\isPassword()
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 13:33:43 --> Unexpected character "'".
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Lexer.php(290): Twig\Lexer->lexExpression()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Lexer.php(184): Twig\Lexer->lexVar()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(460): Twig\Lexer->tokenize(Object(Twig\Source))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(507): Twig\Environment->tokenize(Object(Twig\Source))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(348): Twig\Environment->compileSource(Object(Twig\Source))
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(309): Twig\Environment->loadTemplate('__TwigTemplate_...', 'templates/heade...')
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(433): Twig\Environment->load('templates/heade...')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Extension\CoreExtension.php(1258): Twig\Environment->resolveTemplate('templates/heade...')
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\writable\cache\twig\f2\f2cfaf6164c343fbca9e0ab24cfdd2bd7e8832639ccb0277f9077913e6e79769.php(67): twig_include(Object(Twig\Environment), Array, 'templates/heade...')
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(394): __TwigTemplate_83b84920aded4c78d1476b44946c2761e89fa7442cdc33bec309d2ca38b807d1->doDisplay(Array, Array)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#11 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(379): Twig\Template->display(Array)
+#12 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#13 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\TemplateWrapper->render(Array)
+#14 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('layout/base.htm...', Array)
+#15 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('layout/base.htm...', Array)
+#16 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(72): Kenjis\CI4Twig\Twig->display('layout/base.htm...')
+#17 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#18 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#19 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#20 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#21 {main}
+CRITICAL - 2021-05-09 13:59:56 --> Unable to find template "layout/partials/intro.html.twig" (looked into: C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Views).
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('layout/partials...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('layout/partials...')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('layout/partials...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('layout/partials...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('layout/partials...', Array)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('layout/partials...', Array)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(41): Kenjis\CI4Twig\Twig->display('layout/partials...', Array)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-09 14:01:41 --> Call to a member function isPassword() on null
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 14:17:38 --> Call to a member function isPassword() on null
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 14:28:47 --> Unable to find template "base.html" (looked into: C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Views) in "login.html.twig" at line 1.
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('base.html')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('base.html')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(319): Twig\Environment->getTemplateClass('base.html')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\writable\cache\twig\9c\9c82fc81cc42111b205b7433a344750099816c10ef8930eb9bc57aafb66e513b.php(41): Twig\Template->loadTemplate('base.html', 'login.html.twig', 1)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(394): __TwigTemplate_05d52bfa13d8516a6b2f502c5b98d557f7b16a9d171ee398deb69d388d3a95db->doDisplay(Array, Array)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(379): Twig\Template->display(Array)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\TemplateWrapper->render(Array)
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('login.html.twig', Array)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('login.html.twig', Array)
+#11 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(73): Kenjis\CI4Twig\Twig->display('login.html')
+#12 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#13 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#14 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2021-05-09 14:28:55 --> Unable to find template "base.html" (looked into: C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Views) in "login.html.twig" at line 1.
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('base.html')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('base.html')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(319): Twig\Environment->getTemplateClass('base.html')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\writable\cache\twig\9c\9c82fc81cc42111b205b7433a344750099816c10ef8930eb9bc57aafb66e513b.php(41): Twig\Template->loadTemplate('base.html', 'login.html.twig', 1)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(394): __TwigTemplate_05d52bfa13d8516a6b2f502c5b98d557f7b16a9d171ee398deb69d388d3a95db->doDisplay(Array, Array)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(379): Twig\Template->display(Array)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\TemplateWrapper->render(Array)
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('login.html.twig', Array)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('login.html.twig', Array)
+#11 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(73): Kenjis\CI4Twig\Twig->display('login.html')
+#12 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#13 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#14 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2021-05-09 14:29:14 --> Unable to find template "templates/base.html" (looked into: C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Views) in "login.html.twig" at line 1.
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('templates/base....')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('templates/base....')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(319): Twig\Environment->getTemplateClass('templates/base....')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\writable\cache\twig\9c\9c82fc81cc42111b205b7433a344750099816c10ef8930eb9bc57aafb66e513b.php(41): Twig\Template->loadTemplate('templates/base....', 'login.html.twig', 1)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(394): __TwigTemplate_05d52bfa13d8516a6b2f502c5b98d557f7b16a9d171ee398deb69d388d3a95db->doDisplay(Array, Array)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(379): Twig\Template->display(Array)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\TemplateWrapper->render(Array)
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('login.html.twig', Array)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('login.html.twig', Array)
+#11 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(73): Kenjis\CI4Twig\Twig->display('login.html')
+#12 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#13 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#14 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2021-05-09 14:29:35 --> Unable to find template "layout/base.html" (looked into: C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Views) in "login.html.twig" at line 1.
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('layout/base.htm...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('layout/base.htm...')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(319): Twig\Environment->getTemplateClass('layout/base.htm...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\writable\cache\twig\9c\9c82fc81cc42111b205b7433a344750099816c10ef8930eb9bc57aafb66e513b.php(41): Twig\Template->loadTemplate('layout/base.htm...', 'login.html.twig', 1)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(394): __TwigTemplate_05d52bfa13d8516a6b2f502c5b98d557f7b16a9d171ee398deb69d388d3a95db->doDisplay(Array, Array)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(379): Twig\Template->display(Array)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\TemplateWrapper->render(Array)
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('login.html.twig', Array)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('login.html.twig', Array)
+#11 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(73): Kenjis\CI4Twig\Twig->display('login.html')
+#12 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#13 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#14 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2021-05-09 14:30:17 --> Unable to find template "layout/base.html.twig" (looked into: C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Views).
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('layout/base.htm...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('layout/base.htm...')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('layout/base.htm...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('layout/base.htm...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('layout/base.htm...', Array)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('layout/base.htm...', Array)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(72): Kenjis\CI4Twig\Twig->display('layout/base.htm...')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-09 14:31:07 --> Unable to find template "base.html" (looked into: C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Views) in "login.html.twig" at line 1.
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('base.html')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('base.html')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(319): Twig\Environment->getTemplateClass('base.html')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\writable\cache\twig\9c\9c82fc81cc42111b205b7433a344750099816c10ef8930eb9bc57aafb66e513b.php(41): Twig\Template->loadTemplate('base.html', 'login.html.twig', 1)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(394): __TwigTemplate_05d52bfa13d8516a6b2f502c5b98d557f7b16a9d171ee398deb69d388d3a95db->doDisplay(Array, Array)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(379): Twig\Template->display(Array)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\TemplateWrapper->render(Array)
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('login.html.twig', Array)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('login.html.twig', Array)
+#11 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(73): Kenjis\CI4Twig\Twig->display('login.html')
+#12 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#13 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#14 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2021-05-09 14:31:57 --> Unable to find template "layout/base.html.twig" (looked into: C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Views).
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('layout/base.htm...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('layout/base.htm...')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('layout/base.htm...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('layout/base.htm...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('layout/base.htm...', Array)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('layout/base.htm...', Array)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(72): Kenjis\CI4Twig\Twig->display('layout/base.htm...')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-09 14:32:02 --> Unable to find template "layout/base.html.twig" (looked into: C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Views).
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('layout/base.htm...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('layout/base.htm...')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('layout/base.htm...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('layout/base.htm...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('layout/base.htm...', Array)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('layout/base.htm...', Array)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(72): Kenjis\CI4Twig\Twig->display('layout/base.htm...')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-09 14:32:26 --> Unable to find template "template/intro.html.twig" (looked into: C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Views).
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('template/intro....')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('template/intro....')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('template/intro....')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('template/intro....')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('template/intro....', Array)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('template/intro....', Array)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(41): Kenjis\CI4Twig\Twig->display('template/intro....', Array)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-09 14:37:22 --> Unable to find template "base.html" (looked into: C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Views) in "templates/intro.html.twig" at line 1.
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('base.html')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('base.html')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(319): Twig\Environment->getTemplateClass('base.html')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\writable\cache\twig\a7\a747a6f75fe93de99f286cbef71714cb7028cc5982fe4a1c8f97ac6ffbd8a612.php(41): Twig\Template->loadTemplate('base.html', 'templates/intro...', 1)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(394): __TwigTemplate_5a65813a02e4ab8183f0136511b34d5ce682e49c317a016115c95e206c3fa96f->doDisplay(Array, Array)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(379): Twig\Template->display(Array)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\TemplateWrapper->render(Array)
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('templates/intro...', Array)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('templates/intro...', Array)
+#11 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(41): Kenjis\CI4Twig\Twig->display('templates/intro...', Array)
+#12 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#13 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#14 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2021-05-09 14:37:51 --> Unable to find template "base.html.twig" (looked into: C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Views) in "templates/intro.html.twig" at line 1.
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('base.html.twig')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('base.html.twig')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(319): Twig\Environment->getTemplateClass('base.html.twig')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\writable\cache\twig\a7\a747a6f75fe93de99f286cbef71714cb7028cc5982fe4a1c8f97ac6ffbd8a612.php(41): Twig\Template->loadTemplate('base.html.twig', 'templates/intro...', 1)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(394): __TwigTemplate_5a65813a02e4ab8183f0136511b34d5ce682e49c317a016115c95e206c3fa96f->doDisplay(Array, Array)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(379): Twig\Template->display(Array)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\TemplateWrapper->render(Array)
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('templates/intro...', Array)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('templates/intro...', Array)
+#11 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(41): Kenjis\CI4Twig\Twig->display('templates/intro...', Array)
+#12 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#13 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#14 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2021-05-09 14:44:34 --> Call to a member function isPassword() on null
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 15:04:50 --> A template that extends another one cannot include content outside Twig blocks. Did you forget to put the content inside a {% block %} tag?
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Parser.php(342): Twig\Parser->filterBodyNodes(Object(Twig\Node\TextNode), false)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Parser.php(86): Twig\Parser->filterBodyNodes(Object(Twig\Node\Node))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(479): Twig\Parser->parse(Object(Twig\TokenStream))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(507): Twig\Environment->parse(Object(Twig\TokenStream))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(348): Twig\Environment->compileSource(Object(Twig\Source))
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(309): Twig\Environment->loadTemplate('__TwigTemplate_...', 'layout/partials...')
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(433): Twig\Environment->load('layout/partials...')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Extension\CoreExtension.php(1258): Twig\Environment->resolveTemplate('layout/partials...')
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\writable\cache\twig\42\429bc18ecf64da83aa73e3842f4a695bc06d104bdaaab46961b41a9a8d09f42b.php(81): twig_include(Object(Twig\Environment), Array, 'layout/partials...')
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(394): __TwigTemplate_fe4c5965f1d618e4ff090cd41c2972ec12d17220d931e43dd48b919fa984110b->doDisplay(Array, Array)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#11 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\writable\cache\twig\85\856d1e9ac555e1cdbea6c28472dc5fac897cd6e3ec2eed20600ae2263266a572.php(42): Twig\Template->display(Array, Array)
+#12 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(394): __TwigTemplate_7f75d8f3e3dfe21a6fd557478a1c7ed138e35a5fdcadbeb3f3ea9a662de17c5c->doDisplay(Array, Array)
+#13 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#14 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(379): Twig\Template->display(Array)
+#15 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#16 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\TemplateWrapper->render(Array)
+#17 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('templates/login...', Array)
+#18 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('templates/login...', Array)
+#19 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(69): Kenjis\CI4Twig\Twig->display('templates/login...')
+#20 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#21 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#22 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#23 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#24 {main}
+CRITICAL - 2021-05-09 15:30:13 --> Unable to find template "intro.html.twig" (looked into: C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Views).
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('intro.html.twig')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('intro.html.twig')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('intro.html.twig')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('intro.html.twig')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('intro.html.twig', Array)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('intro.html.twig', Array)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(9): Kenjis\CI4Twig\Twig->display('intro.html')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->index()
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-09 15:30:32 --> Unable to find template "intro.html.twig" (looked into: C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Views).
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('intro.html.twig')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('intro.html.twig')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('intro.html.twig')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('intro.html.twig')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('intro.html.twig', Array)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('intro.html.twig', Array)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(9): Kenjis\CI4Twig\Twig->display('intro.html')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->index()
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-09 15:34:17 --> Call to undefined method Kenjis\CI4Twig\Twig::redirect()
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 15:37:04 --> Unable to find template "intro.html.twig" (looked into: C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Views).
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('intro.html.twig')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('intro.html.twig')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('intro.html.twig')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('intro.html.twig')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('intro.html.twig', Array)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('intro.html.twig', Array)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(9): Kenjis\CI4Twig\Twig->display('intro.html')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->index()
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-09 15:37:37 --> Unable to find template "intro.html.twig" (looked into: C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Views).
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('intro.html.twig')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('intro.html.twig')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('intro.html.twig')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('intro.html.twig')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('intro.html.twig', Array)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('intro.html.twig', Array)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(9): Kenjis\CI4Twig\Twig->display('intro.html')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->index()
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-09 15:37:42 --> Unable to find template "intro.html.twig" (looked into: C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Views).
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('intro.html.twig')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('intro.html.twig')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('intro.html.twig')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('intro.html.twig')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('intro.html.twig', Array)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('intro.html.twig', Array)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(9): Kenjis\CI4Twig\Twig->display('intro.html')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->index()
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-09 15:39:03 --> Unable to find template "intro.html.twig" (looked into: C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Views).
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('intro.html.twig')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('intro.html.twig')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('intro.html.twig')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('intro.html.twig')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('intro.html.twig', Array)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('intro.html.twig', Array)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(9): Kenjis\CI4Twig\Twig->display('intro.html')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->index()
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-09 16:29:13 --> Unable to find template "intro.html.twig" (looked into: C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Views).
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('intro.html.twig')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('intro.html.twig')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('intro.html.twig')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('intro.html.twig')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('intro.html.twig', Array)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('intro.html.twig', Array)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(16): Kenjis\CI4Twig\Twig->display('intro.html')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->recipes()
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-09 16:29:38 --> Unable to find template "intro.html.twig" (looked into: C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Views).
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('intro.html.twig')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('intro.html.twig')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('intro.html.twig')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('intro.html.twig')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('intro.html.twig', Array)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('intro.html.twig', Array)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(16): Kenjis\CI4Twig\Twig->display('intro.html')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->recipes()
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-09 16:31:53 --> Undefined variable: user
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->recipes()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 16:32:21 --> Undefined variable: user
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->recipes()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 16:33:20 --> Undefined variable: user
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->recipes()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 16:33:33 --> Undefined variable: user
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->recipes()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 16:40:48 --> Undefined variable: user
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->recipes()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 16:40:56 --> Undefined variable: user
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->recipes()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 16:41:09 --> Class 'App\Controllers\UsersController' not found
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->recipes()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 16:41:30 --> Class 'App\Controllers\UsersController' not found
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->recipes()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 16:41:39 --> Call to undefined method App\Controllers\UserController::getLoggedInUser()
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->recipes()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 16:44:05 --> Access to undeclared static property: App\Controllers\UserController::$loggedInUser
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(18): App\Controllers\UserController::getLoggedInUser()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->recipes()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 16:44:20 --> Access to undeclared static property: App\Controllers\UserController::$loggedInUser
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(18): App\Controllers\UserController::getLoggedInUser()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->recipes()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 16:47:37 --> Argument 2 passed to Twig\Environment::render() must be of the type array, null given, called in C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php on line 177
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('templates/recip...', NULL)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('templates/recip...', NULL)
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(19): Kenjis\CI4Twig\Twig->display('templates/recip...', NULL)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->recipes()
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-09 16:49:49 --> Unexpected token "end of print statement" of value "".
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\ExpressionParser.php(175): Twig\ExpressionParser->parsePrimaryExpression()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\ExpressionParser.php(70): Twig\ExpressionParser->getPrimary()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Parser.php(128): Twig\ExpressionParser->parseExpression()
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\TokenParser\BlockTokenParser.php(47): Twig\Parser->subparse(Array, true)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Parser.php(171): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Parser.php(84): Twig\Parser->subparse(NULL, false)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(479): Twig\Parser->parse(Object(Twig\TokenStream))
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(507): Twig\Environment->parse(Object(Twig\TokenStream))
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(348): Twig\Environment->compileSource(Object(Twig\Source))
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(309): Twig\Environment->loadTemplate('__TwigTemplate_...', 'templates/recip...')
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('templates/recip...')
+#11 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('templates/recip...', Array)
+#12 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('templates/recip...', Array)
+#13 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(19): Kenjis\CI4Twig\Twig->display('templates/recip...', Array)
+#14 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->recipes()
+#15 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#16 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#18 {main}
+CRITICAL - 2021-05-09 16:52:31 --> Undefined variable: plaintextPassword
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 16:55:38 --> Call to undefined method App\Controllers\UserController::setLoggedInUser()
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->logout()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 18:54:48 --> Class 'App\Controllers\RecipesModels' not found
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->recipes()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-09 18:55:04 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Model.php(205): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(20): CodeIgniter\BaseModel->findAll()
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->recipes()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 18:57:51 --> Class 'App\Entities\Recipes' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-09 18:59:56 --> Class 'App\Entities\Recipes' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-09 19:00:03 --> Class 'App\Entities\Recipes' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-09 19:00:12 --> Class 'App\Entities\Recipes' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-09 19:04:20 --> Undefined variable: recipe
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->recipes()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 19:12:29 --> Class 'App\Entities\Recipes' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-09 19:13:55 --> Undefined variable: userModel
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->recipes()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-05-09 19:14:02 --> mysqli_sql_exception: Unknown column 'a' in 'where clause' in C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(22): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->recipes()
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-09 19:14:02 --> Unknown column 'a' in 'where clause'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(22): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->recipes()
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-09 19:14:16 --> Class 'App\Entities\Recipes' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-09 19:14:53 --> Class 'App\Entities\Recipes' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-09 19:15:09 --> Class 'App\Entities\Recipes' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-09 19:17:17 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-09 19:18:00 --> Trying to get property 'name' of non-object
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->recipes()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 19:19:37 --> Undefined variable: recipe
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->recipes()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-09 19:24:24 --> Undefined variable: recipe
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\HomeController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\HomeController->recipes()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

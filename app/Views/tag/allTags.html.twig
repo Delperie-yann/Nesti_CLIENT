@@ -1,0 +1,44 @@
+{% extends 'layout/base.html.twig' %}
+
+{% block body %}
+	
+
+<div class="container pt-5">
+
+	<h1 class="text-center">Tous les tags</h1>
+
+	<table class="table text-white rounded bg-secondary">
+		<thead>
+			<tr class="text-warning" >
+				<th scope="col">#</th>
+				<th scope="col">Nom</th>
+				<th scope="col">Date de création</th>
+				<th scope="col">Date de mise à jour</th>
+				<th scope="col">
+					<a class="btn btn-success" href={{base_url('tags/create')}}>Créer</a>
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for t in tags %}
+				<tr>
+					<th class="text-dark" scope="row">{{t.id}}</th>
+					<td>{{t.name}}</td>
+					<td>{{t.created_at}}</td>
+					<td>{{t.updated_at ? t.updated_at : t.created_at}}</td>
+					<td>
+						<a data-toggle="tooltip" data-placement="top" title="Modifier" href={{base_url('tags/'~ t.id ~ '/edit')}}>
+							<i class="fas fa-pencil-alt mr-3 text-white"></i>
+						</a>
+
+						<a data-toggle="tooltip" data-placement="top" title="Lire" href={{base_url('tags/'~ t.id)}}>
+							<i class="far fa-eye text-white"></i>
+						</a>
+					</td>
+				</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+
+	</div>
+{% endblock %}

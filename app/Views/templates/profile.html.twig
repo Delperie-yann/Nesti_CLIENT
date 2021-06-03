@@ -1,0 +1,64 @@
+{% extends "base.html.twig" %}
+{% block body %}
+	{% if user.login != NULL %}
+		<div class="container">
+
+			<h2>Création d'un utilisateur</h2>
+			<div class="row mt-12 ">
+
+				<div
+					class="col ">
+					{# {{dump(user)}}; ~"/"~ user.idUsers #}
+					{{ form_open ( base_url('/profile'))   }}
+					<p class="mt-5">Nom</p>
+					<input type="text" class="w-75" name="userLastname" value="{{user.lastName }}" required>
+
+					<p class="mt-5">Prénom</p>
+					<input type="text" class="w-75" name="userFirstname" value="{{user.firstName }}" required>
+
+					<p class="mt-5">Login</p>
+					<input type="text" class="w-75" name="userLogin" value="{{user.login }}" required>
+					{% if loginError  %}
+						<div class="alert alert-danger  w-50" role="alert">
+							<strong>Erreur d'entrée de login</strong>
+						</div>
+					{% endif %}
+					<p class="mt-5">Email</p>
+					<input type="text" class="w-75" name="userEmail" value="{{user.email }}" required>
+					{% if emailError  %}
+						<div class="alert alert-danger w-50" role="alert">
+							<strong>Erreur</strong>
+						</div>
+					{% endif %}
+
+				</div>
+				<div class="col ">
+					<p class="mt-5">Adress1</p>
+					<input type="text" class="w-75" name="userAddress1" value="{{user.address1 }}" required>
+
+					<p class="mt-5">Adress2</p>
+					<input type="text" class="w-75" name="userAddress2" value="{{user.address2 }}" >
+					<p class="mt-5">Zipcode</p>
+					<input type="text" class="w-75" name="userZipCode" value="{{user.zipCode }}" required>
+					{% if zipcodeError  %}
+						<div class="alert alert-danger  w-50" role="alert">
+							<strong>Erreur</strong>
+						</div>
+					{% endif %}
+					<p class="mt-5">Ville</p>
+					<input type="text" class="w-75" name="userTown" value="{{user.getTown(user.idCity )}}" required>
+
+
+					<div class="row">
+						<div class="d-flex justify-content-center p-2">
+							<button type="submit" name="profileForm" class="btn m-10 ml-5 btn btn-success w-50">Envoyer</button>
+							<button type="return" class="btn m-10 ml-5 btn-danger w-50">Annuler</button>
+						</div>
+					</div>
+				</div>
+				{{ validation.errors ? validation.errors.name}}
+				{{ form_close }}
+			</div>
+		</div>
+	{% endif %}
+{% endblock %}

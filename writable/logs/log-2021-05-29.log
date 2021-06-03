@@ -1,0 +1,205 @@
+CRITICAL - 2021-05-29 17:47:41 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Models\RecipesModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ApiController.php(31): App\Models\RecipesModel->findIngredientForApi('27')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ApiController->ingredient('27')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 17:49:18 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Models\RecipesModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ApiController.php(31): App\Models\RecipesModel->findIngredientForApi('27')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ApiController->ingredient('27')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 17:49:59 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Models\RecipesModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ApiController.php(31): App\Models\RecipesModel->findIngredientForApi('27')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ApiController->ingredient('27')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 17:50:07 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Models\RecipesModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ApiController.php(31): App\Models\RecipesModel->findIngredientForApi('27')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ApiController->ingredient('27')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 17:52:31 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Models\RecipesModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ApiController.php(31): App\Models\RecipesModel->findIngredientForApi('27')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ApiController->ingredient('27')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 17:56:08 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Models\RecipesModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ApiController.php(31): App\Models\RecipesModel->findIngredientForApi('27')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ApiController->ingredient('27')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 17:57:04 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Models\RecipesModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ApiController.php(31): App\Models\RecipesModel->findIngredientForApi('27')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ApiController->ingredient('27')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 18:01:47 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Models\RecipesModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ApiController.php(31): App\Models\RecipesModel->findIngredientForApi('27')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ApiController->ingredient('27')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 18:02:32 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Models\RecipesModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ApiController.php(31): App\Models\RecipesModel->findIngredientForApi('27')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ApiController->ingredient('27')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-29 18:03:58 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Models\RecipesModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ApiController.php(31): App\Models\RecipesModel->findIngredientForApi('27')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ApiController->ingredient('27')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-29 18:05:18 --> mysqli_sql_exception: Table 'php_nesti.view_api_recipe_ingredients' doesn't exist in C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Models\RecipesModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ApiController.php(31): App\Models\RecipesModel->findIngredientForApi('27')
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ApiController->ingredient('27')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-29 18:05:18 --> Table 'php_nesti.view_api_recipe_ingredients' doesn't exist
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Models\RecipesModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ApiController.php(31): App\Models\RecipesModel->findIngredientForApi('27')
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ApiController->ingredient('27')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-29 18:05:29 --> mysqli_sql_exception: Table 'php_nesti.view_api_ingredients' doesn't exist in C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Models\RecipesModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ApiController.php(31): App\Models\RecipesModel->findIngredientForApi('27')
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ApiController->ingredient('27')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-29 18:05:29 --> Table 'php_nesti.view_api_ingredients' doesn't exist
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Models\RecipesModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ApiController.php(31): App\Models\RecipesModel->findIngredientForApi('27')
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ApiController->ingredient('27')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-29 18:06:17 --> mysqli_sql_exception: Table 'php_nesti.view_api_ingredients' doesn't exist in C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Models\RecipesModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ApiController.php(31): App\Models\RecipesModel->findIngredientForApi('27')
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ApiController->ingredient('27')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-29 18:06:17 --> Table 'php_nesti.view_api_ingredients' doesn't exist
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Models\RecipesModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ApiController.php(31): App\Models\RecipesModel->findIngredientForApi('27')
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ApiController->ingredient('27')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-29 18:06:54 --> mysqli_sql_exception: Table 'php_nesti.view_api_ingredients' doesn't exist in C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Models\RecipesModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ApiController.php(31): App\Models\RecipesModel->findIngredientForApi('27')
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ApiController->ingredient('27')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-29 18:06:54 --> Table 'php_nesti.view_api_ingredients' doesn't exist
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Models\RecipesModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ApiController.php(31): App\Models\RecipesModel->findIngredientForApi('27')
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ApiController->ingredient('27')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-29 18:07:09 --> mysqli_sql_exception: Table 'php_nesti.view_api_ingredients' doesn't exist in C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Models\RecipesModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ApiController.php(31): App\Models\RecipesModel->findIngredientForApi('27')
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ApiController->ingredient('27')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-29 18:07:09 --> Table 'php_nesti.view_api_ingredients' doesn't exist
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Models\RecipesModel.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ApiController.php(31): App\Models\RecipesModel->findIngredientForApi('27')
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ApiController->ingredient('27')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiController))
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

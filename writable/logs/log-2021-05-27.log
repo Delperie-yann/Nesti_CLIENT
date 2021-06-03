@@ -1,0 +1,51 @@
+CRITICAL - 2021-05-27 14:05:04 --> Undefined index: password
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ProfileController.php(15): App\Controllers\UserController::getLoggedInUser()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ProfileController->index()
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-27 14:05:07 --> Undefined index: password
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ProfileController.php(15): App\Controllers\UserController::getLoggedInUser()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ProfileController->index()
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-27 14:05:10 --> Undefined index: password
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ProfileController.php(15): App\Controllers\UserController::getLoggedInUser()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ProfileController->index()
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-27 14:05:13 --> Undefined index: password
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ProfileController.php(15): App\Controllers\UserController::getLoggedInUser()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ProfileController->index()
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-27 20:36:52 --> Call to undefined function form_open()
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(171): __TwigTemplate_e8ec6065852d70924ec04145cceff1527cab6d4102edef3281cbcad7ab26799b->block_body(Array, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\writable\cache\twig\42\429bc18ecf64da83aa73e3842f4a695bc06d104bdaaab46961b41a9a8d09f42b.php(75): Twig\Template->displayBlock('body', Array, Array)
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(394): __TwigTemplate_fe4c5965f1d618e4ff090cd41c2972ec12d17220d931e43dd48b919fa984110b->doDisplay(Array, Array)
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\writable\cache\twig\4a\4af6c22603793985fb5cf9b7e5277268b9894a099bf93757244d7a5fc154fb72.php(42): Twig\Template->display(Array, Array)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(394): __TwigTemplate_e8ec6065852d70924ec04145cceff1527cab6d4102edef3281cbcad7ab26799b->doDisplay(Array, Array)
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Template.php(379): Twig\Template->display(Array)
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\twig\twig\src\Environment.php(277): Twig\TemplateWrapper->render(Array)
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(177): Twig\Environment->render('templates/buy.h...', Array)
+#11 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\vendor\kenjis\codeigniter-ss-twig\src\CI4Twig\Twig.php(156): Kenjis\CI4Twig\Twig->render('templates/buy.h...', Array)
+#12 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\BuyController.php(26): Kenjis\CI4Twig\Twig->display('templates/buy.h...', Array)
+#13 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\BuyController->buying()
+#14 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BuyController))
+#15 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#17 {main}

@@ -1,0 +1,148 @@
+h1{
+    text-align: center;
+   
+}
+
+label{
+  
+    background-color: #b1724a;
+  
+    color:#000000!important;
+   padding: 2px;
+    border-radius: 15px;
+  
+    text-align: center;
+}
+#mt-3{
+    background-color: #ffffff !important;
+
+}
+.advice{
+    color: darkblue;
+}
+h2{
+    text-align: center;
+    background-color: #b1724a;
+    border:1px solid #242038;
+    color:#000000;
+   padding: 2px;
+    border-radius: 15px;
+   
+    text-align: center;
+
+}
+.mt-5{
+      background-color: #caa085;
+    border:2px solid #242038;
+    color: #313131;
+   padding: 2px;
+    border-radius: 15px;
+    margin-right: 75%;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.btn.btn-info{
+    background-color: #c29a81;
+    border:2px solid #242038;
+    color:#000000;
+    margin-right: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+#nav{
+    margin-top: 5%;
+    background-color : #c0aca0;
+   
+
+}
+#navbarSupportedContent,.navbar.navbar-expand-lg{
+   background-color :#b6a195;
+   border-radius: 10px;
+}
+
+.main{
+    background: url("../img/Background.jpg") no-repeat center center fixed !important; 
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+   padding-bottom: 50%;
+
+   
+}
+footer{
+    background-color: oldlace;
+   margin-top: -5%;
+}
+.textCorp{
+padding: 100px;
+background-color: #e0d9fa;
+
+}
+
+a{
+    color:#F7ECE1;
+}
+.btntag{
+   
+    border-radius: 15px;
+    background-color: #b1724a;
+    border:2px solid #242038;
+    color: #313131;
+    margin: 10px;
+    font-weight: bolder;
+    padding:2px
+}
+#backgroundTag{
+    background-color :#F7ECE1;
+    border-radius: 10px;
+margin-bottom: 50px;
+margin-left: 50px;
+margin-right: 50px;
+}
+.card{
+    border-radius: 20px!important;
+    height: 100%;
+}
+
+.img-fluid{
+    padding: 10px;
+    height: 100%!important;
+    width: 100%!important;
+}
+.rounded.mx-auto.d-block{
+    height: 250px!important;
+    width: 250px!important;
+}
+.w-75{
+    padding: 10px;
+border-radius: 10px;
+}
+@media (max-width: 576px) {  
+    .xs {color:red;font-weight:bold;}
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width:768px) {  
+    .sm {color:red;font-weight:bold;}
+  }
+   
+  /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+  @media (min-width: 768px) and (max-width:992px) {  
+   .md {color:red;font-weight:bold;}
+  }
+   
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width:1200px) { 
+   .lg {color:red;font-weight:bold;}
+  }
+   
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {  
+      .xl {color:red;font-weight:bold;}
+  }
+ 

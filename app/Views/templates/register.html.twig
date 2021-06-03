@@ -1,0 +1,82 @@
+{% extends "base.html.twig" %}
+{% block body %}
+
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 mt-5 pt-3 pb-3 bg-white from-wrapper">
+				<div class="container">
+					<h3>Register</h3>
+					<hr>
+
+
+					{{ form_open ( base_url('/register') )   }}
+					<div class="form-group">
+						<label for="text">Login</label>
+						<input type="text" class="form-control" name="login" id="login" value="" require>
+					</div>
+					<div class="form-group">
+						<label for="email">Email address <b>minimun 6 caratères  </b></label>
+						<input type="text" class="form-control" name="email" id="email" value="" required>
+					</div>
+					<div class="form-group">
+						<label for="password">Password <b>minimun 8 caratères  </b></label>
+                            <input  class="form-control" type="password" class="w-75" name="password" id="pwd"
+                            required>
+					</div>
+                
+                    <hr>
+					<div class="form-group">
+						<label for="text">FirstName</label>
+						<input type="text" class="form-control" name="firstname" id="firstName" value="">
+					</div>
+					<div class="form-group">
+						<label for="text">Lastname</label>
+						<input type="text" class="form-control" name="lastname" id="lastname" value="">
+					</div>
+
+					<div class="form-group">
+						<label for="text">Adresse 1</label>
+						<input type="text" class="form-control" name="addresse1" id="Adresse1" value="">
+					</div>
+					<div class="form-group">
+						<label for="text">Adresse 2</label>
+						<input type="text" class="form-control" name="addresse2" id="Adresse2" value="">
+					</div>
+					<div class="form-group">
+						<label for="text">Zip code</label>
+						<input type="text" class="form-control" name="zipcode" id="Zipcode" value="">
+					</div>
+					<div class="form-group">
+						<label for="text">City</label>
+						<input type="text" class="form-control" name="city" id="city" value="">
+					</div>
+
+
+					<div class="row">
+						<div class="col-12 col-sm-4">
+							<button type="submit" name="profileRegister" class="btn btn-primary">Envoyer</button>
+						</div>
+						{{ validation.errors ? validation.errors.name}}
+						{{ form_close }}
+					</div>
+                    <br><br>Complexité du mot de passe : <meter value="0" low="3" high="5" min="0" max="5"
+                    id="pwd_meter">0%</meter><br>
+
+                <ul><br>
+                    <li><span class="advice mr-5" id=><em><b>Conseils pour le mot de passe (Tous les lignes ci-dessous
+                                    doivent être vertes).</b></em></span></li>
+                    <li><span class="advice mr-5" id="pwd_warn1">Le mot de passe doit faire plus de 8 caractères.</span>
+                    </li>
+                    <li><span class="advice" id="pwd_warn2">Le mot de passe doit contenir au moins une lettre
+                            minuscule.</span></li>
+                    <li><span class="advice" id="pwd_warn3">Le mot de passe doit contenir au moins une lettre
+                            majuscule.</span></li>
+                    <li><span class="advice" id="pwd_warn4">Le mot de passe doit contenir au moins un chiffre.</span>
+                    </li>
+                    <li><span class="advice" id="pwd_warn5">Le mot de passe doit contenir au moins un caractère
+                            non-alphanumérique.</span></li>
+                </ul>
+			</div>
+		</div>
+	</div>
+</div>{% endblock %}

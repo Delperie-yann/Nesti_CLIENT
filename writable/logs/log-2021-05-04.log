@@ -1,0 +1,108 @@
+ERROR - 2021-05-04 16:54:55 --> mysqli_sql_exception: Table 'php_nesti.tag' doesn't exist in C:\xampp\htdocs\www\tpsCodeigniter\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\www\tpsCodeigniter\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\www\tpsCodeigniter\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\www\tpsCodeigniter\app\Controllers\TagController.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\www\tpsCodeigniter\system\CodeIgniter.php(936): App\Controllers\TagController->allTags()
+#8 C:\xampp\htdocs\www\tpsCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TagController))
+#9 C:\xampp\htdocs\www\tpsCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\www\tpsCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-04 16:54:55 --> Table 'php_nesti.tag' doesn't exist
+#0 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\www\tpsCodeigniter\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\www\tpsCodeigniter\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\www\tpsCodeigniter\app\Controllers\TagController.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\www\tpsCodeigniter\system\CodeIgniter.php(936): App\Controllers\TagController->allTags()
+#8 C:\xampp\htdocs\www\tpsCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TagController))
+#9 C:\xampp\htdocs\www\tpsCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\www\tpsCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-05-04 16:55:06 --> mysqli_sql_exception: Table 'php_nesti.tag' doesn't exist in C:\xampp\htdocs\www\tpsCodeigniter\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\www\tpsCodeigniter\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\www\tpsCodeigniter\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\www\tpsCodeigniter\app\Controllers\TagController.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\www\tpsCodeigniter\system\CodeIgniter.php(936): App\Controllers\TagController->allTags()
+#8 C:\xampp\htdocs\www\tpsCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TagController))
+#9 C:\xampp\htdocs\www\tpsCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\www\tpsCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-04 16:55:06 --> Table 'php_nesti.tag' doesn't exist
+#0 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\www\tpsCodeigniter\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\www\tpsCodeigniter\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\www\tpsCodeigniter\app\Controllers\TagController.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\www\tpsCodeigniter\system\CodeIgniter.php(936): App\Controllers\TagController->allTags()
+#8 C:\xampp\htdocs\www\tpsCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TagController))
+#9 C:\xampp\htdocs\www\tpsCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\www\tpsCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-05-04 16:58:38 --> mysqli_sql_exception: Table 'php_nesti.tag' doesn't exist in C:\xampp\htdocs\www\tpsCodeigniter\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\www\tpsCodeigniter\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\www\tpsCodeigniter\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\www\tpsCodeigniter\app\Controllers\TagController.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\www\tpsCodeigniter\system\CodeIgniter.php(936): App\Controllers\TagController->allTags()
+#8 C:\xampp\htdocs\www\tpsCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TagController))
+#9 C:\xampp\htdocs\www\tpsCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\www\tpsCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-04 16:58:38 --> Table 'php_nesti.tag' doesn't exist
+#0 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\www\tpsCodeigniter\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\www\tpsCodeigniter\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\www\tpsCodeigniter\app\Controllers\TagController.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\www\tpsCodeigniter\system\CodeIgniter.php(936): App\Controllers\TagController->allTags()
+#8 C:\xampp\htdocs\www\tpsCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TagController))
+#9 C:\xampp\htdocs\www\tpsCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\www\tpsCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-05-04 17:00:15 --> mysqli_sql_exception: Table 'php_nesti.tag' doesn't exist in C:\xampp\htdocs\www\tpsCodeigniter\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\www\tpsCodeigniter\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\www\tpsCodeigniter\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\www\tpsCodeigniter\app\Controllers\TagController.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\www\tpsCodeigniter\system\CodeIgniter.php(936): App\Controllers\TagController->allTags()
+#8 C:\xampp\htdocs\www\tpsCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TagController))
+#9 C:\xampp\htdocs\www\tpsCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\www\tpsCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-05-04 17:00:15 --> Table 'php_nesti.tag' doesn't exist
+#0 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\www\tpsCodeigniter\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\www\tpsCodeigniter\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\www\tpsCodeigniter\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\www\tpsCodeigniter\app\Controllers\TagController.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\www\tpsCodeigniter\system\CodeIgniter.php(936): App\Controllers\TagController->allTags()
+#8 C:\xampp\htdocs\www\tpsCodeigniter\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TagController))
+#9 C:\xampp\htdocs\www\tpsCodeigniter\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\www\tpsCodeigniter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}

@@ -1,0 +1,58 @@
+{% extends "base.html.twig" %}
+{% block body %}
+{% if user.login != NULL %}	
+	<div class="container">
+		<h2 class=" text-center">Recettes</h2>
+
+
+		<div id="backgroundTag">
+			<div class="container-fluid   d-flex justify-content-center">
+
+
+				<div class="btn-group">
+				<a class="btntag" href='{{base_url('/recipes/1')}}'>facile</a>
+				<a class="btntag" href='{{base_url("/recipes/2")}}'>gluten</a>
+				<a class="btntag" href='{{base_url("/recipes/3")}}'>Saison</a>
+				<a class="btntag" href='{{base_url("/recipes/4")}}'>Tradition</a>
+				</div>
+
+			</div>
+		</div>
+
+		{# {<pre>
+												{{ dump(recipes) }}
+											</pre>} #}
+
+		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+			{% for rec in recipes %}
+
+				<div class="col mb-4">
+					<div class="card">
+						<img src="{{base_url("../images/recettes/"~ rec.getImageName(rec.idImage)~"."~ rec.getImageExtend(rec.idImage))}}" class="img-fluid" alt="Responsive image of card">
+						<div class="card-body">
+							<h5 class="card-title text-center">{{rec.name}}</h5>
+
+							<a href="{{base_url("/detailsRecipe")}}/{{rec.idRecipe}}" class="btn Detail d-block">Detail de la recette</a>
+							
+							<p class="card-text text-center">Note : {{rec.getGrade(rec.idRecipe)}}
+							</p>
+{# 							
+											{<pre>
+												{{ dump(rec.idRecipe) }}
+											</pre>} #}
+						{# {% if rec.getGrade(rec.idRecipe) != NULL %} #}
+							
+						{# {% endif %} #}
+							<a href="{{base_url("/detailsRecipe")}}/{{rec.idRecipe}}" class="btn Commentaire d-block">Commentaire
+							</a>
+						</div>
+					</div>
+				</div>
+
+
+				
+			{% endfor %}
+		</div>
+	</div>
+{% endif %}
+{% endblock %}

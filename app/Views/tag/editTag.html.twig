@@ -1,0 +1,15 @@
+{% extends 'layout/base.html.twig' %}
+
+{% block body %}
+
+	<div class="container mt-5 text-center">
+		<h1>Modification du tag :
+			{{dump(validation.errors)}}
+			{{tag.name}}</h1>
+		<form method="POST" action="">
+			<input name='name' value='{{tag.name}}' type="text">
+			<input value="ok" type="submit">
+		</form>
+	</div>
+
+{% endblock %}

@@ -1,0 +1,105 @@
+{% extends "base.html.twig" %}
+{% block body %}
+{% if user.login != NULL %}	
+<div class="main">
+<!-- The Modal -->
+<div id="myModal" class="modal">
+    
+</div>
+<div class="grid lg:grid-cols-5 grid-cols-3 justify-center">
+    <div class="flex flex-col lg:col-span-3 col-span-3 mt-2">
+        <h2>Choisissez vos ingrédients</h2>
+        <div class="flex flex-col justify-center">
+            <div
+                class="relative xl:max-w-xl md:mx-auto max-w-sm mx-auto my-10"
+            >
+                <div
+                    class="-rotate-2 md:-rotate-6 cards absolute inset-0 shadow-lg transform rounded"
+                ></div>
+                <div
+                    class="-rotate-1 md-rotate-1é cards absolute inset-0 shadow-lg transform rounded"
+                ></div>
+                <div
+                    class="rotate-2 md:rotate-6 cards absolute inset-0 shadow-lg transform rounded"
+                ></div>
+                <div
+                    class="rotate-2 cards absolute inset-0 shadow-lg transform rounded"
+                >
+                    <div class="relative shadow-lg rounded sm:p-20">
+                        <div class="max-w-md mx-auto">
+                            <div class="grid grid-cols-1">
+                                <div
+                                    class="place-self-center text-5xl mb-6 textBelow"
+                                ></div>
+                            </div>
+                            <img class="imgBelow" src="" alt="" />
+                            <div class="grid grid-cols-2 py-5">
+                                <div class="place-self-center">
+                                    <img
+                                        src="./images/ingredients/sweep.png"
+                                        alt="sweep"
+                                    />
+                                </div>
+                                <div class="place-self-center">
+                                    <img
+                                        src="./images/ingredients/keep.png"
+                                        alt="keep"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="-rotate-2 cardsI transform relative rounded sm:p-20"
+                >
+                    <div class="xl:max-w-xl max-w-sm mx-auto">
+                        <div class="grid grid-cols-1">
+                            <div
+                                class="place-self-center text-5xl mb-6 textUp"
+                            >
+                               
+                            </div>
+                        </div>
+
+                        <img class="imgUp" src="" alt="" />
+                        <div class="grid grid-cols-2 py-5">
+                            <div class="place-self-center sweep">
+                                <img
+                                    src="./images/ingredients/sweep.png"
+                                    alt="sweep"
+                                />
+                            </div>
+                            <div class="place-self-center keep">
+                                <img
+                                    src="./images/ingredients/keep.png"
+                                    alt="keep"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div
+        class="flex flex-col lg:col-span-2 col-span-3 mt-2 xl:mr-20 mr-0"
+    >
+        <div>
+            <h2>Choisissez votre recette</h2>
+        </div>
+
+        <div
+            class="repice grid grid-cols-4 md:grid-cols-5 gap-1 md:gap-4 mt-0 md:mt-20 mb-10 md:mb-0 place-self-center"
+        ></div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+{% endif %}
+{% endblock %}
