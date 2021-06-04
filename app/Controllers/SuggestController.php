@@ -15,10 +15,7 @@ class SuggestController extends BaseController
 		->findAll();
        
        
-		// var_dump($recipes);
-// foreach($recipes as $recipe){
-// 	// var_dump($recipe);
-// }
+	
 
 		$this->twig->display('templates/suggest.html', ['user' => $user,'recipes' => $recipes]);
 	}

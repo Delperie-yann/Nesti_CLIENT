@@ -153,7 +153,7 @@ class UserController extends BaseController
     {
         helper('cookie');
 
-        // session_destroy();
+     
         setcookie("login", null, 2147483647, '/');
         setcookie("password", null, 2147483647, '/');
         self::setloggedInUser(null);
