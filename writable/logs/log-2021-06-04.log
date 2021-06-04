@@ -1,0 +1,283 @@
+CRITICAL - 2021-06-04 13:44:03 --> Undefined index: password
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\TagController.php(14): App\Controllers\UserController::getLoggedInUser()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\TagController->recipes('3')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TagController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-04 13:44:05 --> Undefined index: password
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\TagController.php(14): App\Controllers\UserController::getLoggedInUser()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\TagController->recipes('3')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TagController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-04 13:44:20 --> syntax error, unexpected '|', expecting ';' or '{'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(37): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-04 13:44:57 --> syntax error, unexpected '|', expecting ';' or '{'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(37): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-04 13:45:12 --> syntax error, unexpected '|', expecting ';' or '{'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(37): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-04 13:45:54 --> syntax error, unexpected '|', expecting ';' or '{'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(37): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-04 13:46:10 --> syntax error, unexpected '|', expecting ';' or '{'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(37): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-04 13:47:00 --> syntax error, unexpected '|', expecting ';' or '{'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Entities\\Us...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Entities\\Us...')
+#3 [internal function]: spl_autoload_call('App\\Entities\\Us...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Result.php(170): is_subclass_of('App\\Entities\\Us...', 'CodeIgniter\\Ent...')
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseResult.php(167): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\Us...')
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\Us...')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseResult.php(443): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\Us...')
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Model.php(247): CodeIgniter\Database\BaseResult->getFirstRow('App\\Entities\\Us...')
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Models\UsersModel.php(26): CodeIgniter\BaseModel->first()
+#11 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(39): App\Models\UsersModel->findUser('jean')
+#12 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#13 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#14 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2021-06-04 13:49:15 --> syntax error, unexpected '|', expecting ';' or '{'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(37): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-04 13:52:06 --> Undefined index: password
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\TagController.php(14): App\Controllers\UserController::getLoggedInUser()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\TagController->recipes('3')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TagController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-04 13:52:19 --> syntax error, unexpected '|', expecting ';' or '{'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(37): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-04 13:53:07 --> Cannot use 'App\Models\null' as class name as it is reserved
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-04 13:53:49 --> syntax error, unexpected '|', expecting ';' or '{'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(37): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-04 13:54:20 --> syntax error, unexpected '|', expecting ';' or '{'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(37): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-04 13:55:01 --> syntax error, unexpected '|', expecting ';' or '{'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Entities\\Us...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Entities\\Us...')
+#3 [internal function]: spl_autoload_call('App\\Entities\\Us...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Result.php(170): is_subclass_of('App\\Entities\\Us...', 'CodeIgniter\\Ent...')
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseResult.php(167): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\Us...')
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\Us...')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseResult.php(443): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\Us...')
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Model.php(247): CodeIgniter\Database\BaseResult->getFirstRow('App\\Entities\\Us...')
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Models\UsersModel.php(26): CodeIgniter\BaseModel->first()
+#11 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(39): App\Models\UsersModel->findUser('jean')
+#12 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\UserController->login()
+#13 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#14 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2021-06-04 13:56:14 --> syntax error, unexpected '|', expecting ';' or '{'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Reci...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Reci...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ArticleController.php(47): spl_autoload_call('App\\Models\\Reci...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ArticleController->detailsArticle('7')
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-04 13:57:20 --> syntax error, unexpected '|', expecting ';' or '{'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Entities\\Re...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Entities\\Re...')
+#3 [internal function]: spl_autoload_call('App\\Entities\\Re...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Result.php(170): is_subclass_of('App\\Entities\\Re...', 'CodeIgniter\\Ent...')
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseResult.php(167): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\Re...')
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\Re...')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseResult.php(443): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\Re...')
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Model.php(247): CodeIgniter\Database\BaseResult->getFirstRow('App\\Entities\\Re...')
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ArticleController.php(51): CodeIgniter\BaseModel->first()
+#11 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ArticleController->detailsArticle('7')
+#12 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#13 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2021-06-04 14:00:11 --> syntax error, unexpected '|', expecting ';' or '{'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Entities\\Re...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Entities\\Re...')
+#3 [internal function]: spl_autoload_call('App\\Entities\\Re...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\MySQLi\Result.php(170): is_subclass_of('App\\Entities\\Re...', 'CodeIgniter\\Ent...')
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseResult.php(167): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\Re...')
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\Re...')
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Model.php(214): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\Re...')
+#8 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#9 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\SuggestController.php(15): CodeIgniter\BaseModel->findAll()
+#10 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\SuggestController->index()
+#11 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuggestController))
+#12 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-06-04 14:02:17 --> syntax error, unexpected '|', expecting ';' or '{'
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Para...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Para...')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\RecipeController.php(54): spl_autoload_call('App\\Models\\Para...')
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\RecipeController->detailsRecipe('27')
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecipeController))
+#6 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-04 14:21:48 --> Typed static property App\Controllers\UserController::$loggedInUser must not be accessed before initialization
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\RecipeController.php(28): App\Controllers\UserController::getLoggedInUser()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\RecipeController->recipes()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecipeController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-04 14:21:59 --> Typed static property App\Controllers\UserController::$loggedInUser must not be accessed before initialization
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\SuggestController.php(12): App\Controllers\UserController::getLoggedInUser()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\SuggestController->index()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuggestController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-04 14:22:02 --> Typed static property App\Controllers\UserController::$loggedInUser must not be accessed before initialization
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\BuyController.php(13): App\Controllers\UserController::getLoggedInUser()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\BuyController->index()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BuyController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-04 14:22:02 --> Typed static property App\Controllers\UserController::$loggedInUser must not be accessed before initialization
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ArticleController.php(35): App\Controllers\UserController::getLoggedInUser()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ArticleController->detailsArticle('7')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-04 14:22:02 --> Typed static property App\Controllers\UserController::$loggedInUser must not be accessed before initialization
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ArticleController.php(19): App\Controllers\UserController::getLoggedInUser()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ArticleController->index()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-04 14:22:03 --> Typed static property App\Controllers\UserController::$loggedInUser must not be accessed before initialization
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ProfileController.php(15): App\Controllers\UserController::getLoggedInUser()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ProfileController->index()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-04 14:22:05 --> Typed static property App\Controllers\UserController::$loggedInUser must not be accessed before initialization
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ArticleController.php(35): App\Controllers\UserController::getLoggedInUser()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ArticleController->detailsArticle('9')
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-04 14:22:16 --> Typed static property App\Controllers\UserController::$loggedInUser must not be accessed before initialization
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\ArticleController.php(19): App\Controllers\UserController::getLoggedInUser()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\ArticleController->index()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArticleController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-04 14:40:54 --> Typed static property App\Controllers\UserController::$loggedInUser must not be accessed before initialization
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\RecipeController.php(29): App\Controllers\UserController::getLoggedInUser()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\RecipeController->recipes()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecipeController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-04 14:41:08 --> Typed static property App\Controllers\UserController::$loggedInUser must not be accessed before initialization
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\RecipeController.php(29): App\Controllers\UserController::getLoggedInUser()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\RecipeController->recipes()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecipeController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-04 14:49:39 --> Typed static property App\Controllers\UserController::$loggedInUser must not be accessed before initialization
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\RecipeController.php(29): App\Controllers\UserController::getLoggedInUser()
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\RecipeController->recipes()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecipeController))
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

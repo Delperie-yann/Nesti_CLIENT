@@ -4,6 +4,6 @@ namespace App\Entities;
 use CodeIgniter\Entity;
 
 
-class Admin extends Entity
+class Cat extends Entity
 {
 }

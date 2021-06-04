@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Entities;
 
 use CodeIgniter\Entity;
@@ -7,21 +8,26 @@ use App\Models\CityModel;
 class Users extends Entity
 {
 
-   public function getTown($number){
+
+   /**
+    * @param string $number
+    * @return CityModel|null
+    */
+   public function getTown(string $number)
+   {
       $grade = new CityModel();
       $cityName = $grade->where('idCity', $number)->find();
-   //  var_dump($cityName);
-      // foreach ($num as $number){
-      $Rating=$cityName[0]->name;
-      // }
-   return   $Rating ;
-      }
+      $Rating = $cityName[0]->name;
+      return   $Rating;
+   }
 
-
-   public function isPassword($plaintextPassword)
+   /**
+    * @param string $plaintextPassword
+    *  @property string $passwordHash
+    * @return Users|bool
+    */
+   public function isPassword(string $plaintextPassword)
    {
       return password_verify($plaintextPassword, $this->passwordHash);
    }
-//  
-
 }

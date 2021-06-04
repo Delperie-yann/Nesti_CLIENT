@@ -13,8 +13,12 @@ use App\Models\ProductModel;
 use App\Models\GradesModel;
 use App\Models\CommentModel;
 
+/**
+ * @property $twig
+ */
 class RecipeController extends BaseController
 {
+	
 	public function index()
 	{
 		$user  = UserController::getLoggedInUser();

@@ -7,9 +7,10 @@ use App\Models\RecipesModel;
 
 class TagController extends BaseController
 {
+    /**
+     * 
+     */
     public function recipes($cat){
-      
-
         $user = UserController::getLoggedInUser();
         $recipesModel = new RecipesModel();
 		$recipes = $recipesModel->where('idCat', $cat)

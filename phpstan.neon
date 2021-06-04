@@ -1,0 +1,10 @@
+parameters:
+  
+    level: 6
+    bootstrapFiles: 
+        - system/Common.php
+        
+    paths:
+        - app/Controllers
+        - app/Models
+        - app/Entities

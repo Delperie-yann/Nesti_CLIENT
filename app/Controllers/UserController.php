@@ -3,49 +3,49 @@
 namespace App\Controllers;
 
 use App\Models\UsersModel;
-
+use App\Entities\Users;
+use App\Config\Services;
 class UserController extends BaseController
 {
-    protected static $loggedInUser;
+    protected static $loggedInUser ;
     protected static $dataCart;
+
+
+    /**
+     * index
+     *
+     * @return void
+     */
     public function index()
-    { {
-
-            $data = [];
-            helper(['form']);
-
-            $this->twig->display('base.html');
-        }
+    {
+        $data = [];
+        helper(['form']);
+        $this->twig->display('base.html');
     }
+
+
+    /**
+     * login
+     *
+     * @return void
+     */
     public function login()
     {
-
         helper("form");
         $encrypter  = \Config\Services::encrypter();
-
-        // $plainText  = 'This is a plain-text message!';
-        // $ciphertext = $encrypter->encrypt($plainText);
-        // Outputs: This is a plain-text message!
-        // echo $encrypter->decrypt($ciphertext);
-        // var_dump($_POST);
-
         if (!empty($_POST)) {
-            // $model->save(['login' => $this->request->getPost('login') ]);
-            // $this->input->post('login');
-            $_COOKIE['login']    = $login    = $ciphertext    = $encrypter->encrypt($_POST["login"]);
-            $_COOKIE['password'] = $password = $ciphertext = $encrypter->encrypt($_POST["password"]);
+
+            $_COOKIE['login']    = $login    = $encrypter->encrypt($_POST["login"]);
+            $_COOKIE['password'] = $password = $encrypter->encrypt($_POST["password"]);
             $model = new UsersModel();
 
             $user = $model->findUser($encrypter->decrypt($login));
-            // var_dump($login." ".$password);
-            // $user->isPassword();
 
-            // var_dump($user->isPassword($password));
 
             if (isset($password) == true) {
                 // password regex : 'A(?=[-_a-zA-Z0-9]*?[A-Z])(?=[-_a-zA-Z0-9]*?[a-z])(?=[-_a-zA-Z0-9]*?[0-9])[-_a-zA-Z0-9]{6,}z'
 
-                // session_start();
+
                 self::setLoggedInUser($user, $password);
 
                 $this->twig->display('templates/intro.html', ['user' => $user]);
@@ -58,6 +58,11 @@ class UserController extends BaseController
             $this->twig->display('templates/login.html');
         }
     }
+    /**
+     * getLoggedInUser
+     *
+     * @return Object
+     */
     public static function getLoggedInUser()
     {
         $encrypter   = \Config\Services::encrypter();
@@ -72,6 +77,13 @@ class UserController extends BaseController
         return self::$loggedInUser;
     }
 
+    /**
+     * setLoggedInUser
+     *
+     * @param  mixed $user
+     * @param  mixed $plaintextPassword
+     * @return Object
+     */
     public static function setLoggedInUser($user, $plaintextPassword = null)
     {
         $encrypter = \Config\Services::encrypter();
@@ -86,12 +98,15 @@ class UserController extends BaseController
         }
     }
 
+    /**
+     * register
+     *
+     * @return void
+     */
     public function register()
     {
         $encrypter = \Config\Services::encrypter();
         helper(['form']);
-        //  var_dump($_POST);
-
         if (isset($_POST['profileRegister'])) {
             $lastName  = filter_input(INPUT_POST, 'lastname', FILTER_SANITIZE_STRING);
             $firstName = filter_input(INPUT_POST, 'firstname', FILTER_SANITIZE_STRING);
@@ -102,8 +117,6 @@ class UserController extends BaseController
             $address2  = filter_input(INPUT_POST, 'addresse2', FILTER_SANITIZE_STRING);
             $password  = filter_input(INPUT_POST, 'password', FILTER_SANITIZE_STRING);
             $zipcode  = filter_input(INPUT_POST, 'zipcode', FILTER_SANITIZE_STRING);
-
-
             $error     = 0;
 
             if (!filter_var($email, FILTER_VALIDATE_EMAIL) && !preg_match('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/', $email)) {
@@ -119,7 +132,7 @@ class UserController extends BaseController
                 $data['zipcode'] = true;
             }
 
-           
+
             if ($error == 0) {
                 $data = [
 
@@ -144,16 +157,24 @@ class UserController extends BaseController
 
         $this->twig->display('templates/register.html');
     }
+    /**
+     * intro
+     *
+     * @return void
+     */
     public function intro()
     {
-
         $this->twig->display('layout/partials/_nav.html');
     }
+
+    /**
+     * logout
+     *
+     * @return void
+     */
     public function logout()
     {
         helper('cookie');
-
-     
         setcookie("login", null, 2147483647, '/');
         setcookie("password", null, 2147483647, '/');
         self::setloggedInUser(null);
