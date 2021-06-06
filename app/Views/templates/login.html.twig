@@ -7,6 +7,15 @@
 			<div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 mt-5 pt-3 pb-3 bg-white from-wrapper">
 				<div class="container">
 					<h2>Connexion</h2>
+						{% if loginBlocked == true %}
+						<div id="login-row" class="row justify-content-center align-items-center">
+						<div id="login-column" class="col-md-6">
+							<div class="alert alert-danger text-center" role="alert">
+								Utilisateur Bloquer
+							</div>
+						</div>
+					</div>
+					{% endif %}
 						{% if loginError == true %}
 						<div id="login-row" class="row justify-content-center align-items-center">
 						<div id="login-column" class="col-md-6">

@@ -115,7 +115,7 @@ class RecipeController extends BaseController
 		];
 		$isExistcomp=$userProfile->where($dataExist)->find();
 		
-		if ($isExistcomp == array(Null)) {
+		if ($isExistcomp == array()) {
 			$userProfile->insert($data);
 			
 		}

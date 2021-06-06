@@ -11,20 +11,47 @@
 
 					{{ form_open ( base_url('/register') )   }}
 					<div class="form-group">
-				<label for="text">Pseudo <i class="badge">(commencer par une majuscule)</i> </label>
+						<label for="text">Pseudo
+							<i class="badge">(commencer par une majuscule)</i>
+						</label>
+						{% if user  %}
+							<div class="alert alert-danger  w-50" role="alert">
+								<strong>Pseudo indisponible</strong>
+							</div>
+						{% endif %}
+						{% if loginError  %}
+							<div class="alert alert-danger  w-50" role="alert">
+								<strong>Erreur d'entrée de Pseudo</strong>
+							</div>
+						{% endif %}
 						<input type="text" class="form-control" name="login" id="login" value="" require>
 					</div>
 					<div class="form-group">
-						<label for="email">Adresse Email <b class="badge">minimun 6 caratères  </b></label>
+						<label for="email">Adresse Email
+							<b class="badge">minimun 6 caratères
+							</b>
+						</label>
+						{% if emailError  %}
+							<div class="alert alert-danger w-50" role="alert">
+								<strong>Erreur Email invalide</strong>
+							</div>
+						{% endif %}
+
 						<input type="text" class="form-control" name="email" id="email" value="" required>
 					</div>
 					<div class="form-group">
-						<label for="password">Mot de passe<b class="badge">minimun 8 caratères  </b></label>
-                            <input  class="form-control" type="password" class="w-75" name="password" id="pwd"
-                            required>
+						<label for="password">Mot de passe<b class="badge">minimun 8 caratères
+							</b>
+						</label>
+						{% if passwordError  %}
+						<div class="alert alert-danger  w-50" role="alert">
+							<strong>Erreur d'entrée de Mot de passe</strong>
+						</div>
+					{% endif %}
+						<input class="form-control" type="password" class="w-75" name="password" id="pwd" required>
 					</div>
-                
-                    <hr>
+
+					<hr>
 					<div class="form-group">
 						<label for="text">Prénom</label>
 						<input type="text" class="form-control" name="firstname" id="firstName" value="">
@@ -44,6 +71,11 @@
 					</div>
 					<div class="form-group">
 						<label for="text">Code postal</label>
+						{% if zipcodeError  %}
+						<div class="alert alert-danger w-50" role="alert">
+							<strong>Erreur</strong>
+						</div>
+					{% endif %}
 						<input type="text" class="form-control" name="zipcode" id="Zipcode" value="">
 					</div>
 					<div class="form-group">
@@ -59,24 +91,39 @@
 						{{ validation.errors ? validation.errors.name}}
 						{{ form_close }}
 					</div>
-                    <br><br>Complexité du mot de passe : <meter value="0" low="3" high="5" min="0" max="5"
-                    id="pwd_meter">0%</meter><br>
+					<br><br>Complexité du mot de passe :
+					<meter value="0" low="3" high="5" min="0" max="5" id="pwd_meter">0%</meter><br>
 
-                <ul><br>
-                    <li><span class="advice mr-5" id=><em><b>Conseils pour le mot de passe (Tous les lignes ci-dessous
-                                    doivent être vertes).</b></em></span></li>
-                    <li><span class="advice mr-5" id="pwd_warn1">Le mot de passe doit faire plus de 8 caractères.</span>
-                    </li>
-                    <li><span class="advice" id="pwd_warn2">Le mot de passe doit contenir au moins une lettre
-                            minuscule.</span></li>
-                    <li><span class="advice" id="pwd_warn3">Le mot de passe doit contenir au moins une lettre
-                            majuscule.</span></li>
-                    <li><span class="advice" id="pwd_warn4">Le mot de passe doit contenir au moins un chiffre.</span>
-                    </li>
-                    <li><span class="advice" id="pwd_warn5">Le mot de passe doit contenir au moins un caractère
-                            non-alphanumérique.</span></li>
-                </ul>
+					<ul><br>
+						<li>
+							<span class="advice mr-5" id=>
+								<em>
+									<b>Conseils pour le mot de passe (Tous les lignes ci-dessous
+																				                                    doivent être vertes).</b>
+								</em>
+							</span>
+						</li>
+						<li>
+							<span class="advice mr-5" id="pwd_warn1">Le mot de passe doit faire plus de 8 caractères.</span>
+						</li>
+						<li>
+							<span class="advice" id="pwd_warn2">Le mot de passe doit contenir au moins une lettre
+																                            minuscule.</span>
+						</li>
+						<li>
+							<span class="advice" id="pwd_warn3">Le mot de passe doit contenir au moins une lettre
+																                            majuscule.</span>
+						</li>
+						<li>
+							<span class="advice" id="pwd_warn4">Le mot de passe doit contenir au moins un chiffre.</span>
+						</li>
+						<li>
+							<span class="advice" id="pwd_warn5">Le mot de passe doit contenir au moins un caractère
+																                            non-alphanumérique.</span>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>{% endblock %}
+{% endblock %}
