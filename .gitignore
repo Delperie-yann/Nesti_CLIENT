@@ -17,4 +17,5 @@ application/logs/*
 /vendor/
 /system
 /public/img
-public/images
+/public/images
+/writable
