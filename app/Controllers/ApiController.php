@@ -11,12 +11,13 @@ class ApiController extends BaseController
   return view('api_help');
  }
  public function recipes($token){
-     
+  if($this->token($token)==true){
    $model =new RecipesModel();
    $recipes = $model->findAllForApi();
    header('Content-Type: application/json');
    echo json_encode($recipes);
    die;
+  }
  }
  public function category($token,$cat)
  {
@@ -30,27 +31,33 @@ class ApiController extends BaseController
  }
  public function ingredient($token,$idRecipe)
  {
+  if($this->token($token)==true){
    $model =new RecipesModel();
    $recipes = $model->findIngredientForApi($idRecipe);
    header('Content-Type: application/json');
    echo json_encode($recipes);
    die;
  }
+}
  public function search($token,$name)
  {
+  if($this->token($token)==true){
    $model =new RecipesModel();
    $recipes = $model->findRecipeForApi($name);
    header('Content-Type: application/json');
    echo json_encode($recipes);
    die;
+  }
  }
  public function paragraph($token,$idRecipe)
  {
+  if($this->token($token)==true){
    $model2 =new ParagraphModel();
    $recipes = $model2->findParagraphForApi($idRecipe);
    header('Content-Type: application/json');
    echo json_encode($recipes);
    die;
+  }
  }
  public function token($token){
   $model3 =new TokenModel();

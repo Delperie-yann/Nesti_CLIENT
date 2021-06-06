@@ -5,9 +5,10 @@ namespace App\Controllers;
 use App\Models\UsersModel;
 use App\Entities\Users;
 use App\Config\Services;
+
 class UserController extends BaseController
 {
-    protected static $loggedInUser ;
+    protected static $loggedInUser;
     protected static $dataCart;
 
 
@@ -31,30 +32,42 @@ class UserController extends BaseController
      */
     public function login()
     {
+        // password regex : 'A(?=[-_a-zA-Z0-9]*?[A-Z])(?=[-_a-zA-Z0-9]*?[a-z])(?=[-_a-zA-Z0-9]*?[0-9])[-_a-zA-Z0-9]{6,}z'
+
         helper("form");
-        $encrypter  = \Config\Services::encrypter();
+     
         if (!empty($_POST)) {
+            $error = 0;
+            $login     = filter_input(INPUT_POST, 'login', FILTER_SANITIZE_STRING);
+            $password     = filter_input(INPUT_POST, 'password', FILTER_SANITIZE_STRING);
 
-            $_COOKIE['login']    = $login    = $encrypter->encrypt($_POST["login"]);
-            $_COOKIE['password'] = $password = $encrypter->encrypt($_POST["password"]);
-            $model = new UsersModel();
+            if (!preg_match("/^[A-Z]{1}[a-z]{3,20}/", $login)) {
+                $data['loginError'] = true;
+                $error = 1;
+            }
 
-            $user = $model->findUser($encrypter->decrypt($login));
+            if ($error == 0) {
+                $encrypter  = \Config\Services::encrypter();
+                $login= $_COOKIE['login']    = $encrypter->encrypt($login);
+                $password =$_COOKIE['password'] = $encrypter->encrypt($password);
+                $model = new UsersModel();
+
+                $user = $model->findUser($encrypter->decrypt($login));
 
 
-            if (isset($password) == true) {
-                // password regex : 'A(?=[-_a-zA-Z0-9]*?[A-Z])(?=[-_a-zA-Z0-9]*?[a-z])(?=[-_a-zA-Z0-9]*?[0-9])[-_a-zA-Z0-9]{6,}z'
+                if (isset($password) == true) {
 
 
-                self::setLoggedInUser($user, $password);
+                    self::setLoggedInUser($user, $password);
 
-                $this->twig->display('templates/intro.html', ['user' => $user]);
+                    $this->twig->display('templates/intro.html', ['user' => $user]);
+                } else {
+                    $this->twig->display('templates/login.html');
+                };
             } else {
-
-                $this->twig->display('templates/login.html');
-            };
+                $this->twig->display('templates/login.html',['loginError' => $data]);
+            }
         } else {
-
             $this->twig->display('templates/login.html');
         }
     }
@@ -147,7 +160,7 @@ class UserController extends BaseController
                     'idCity'       => ProfileController::towncontrole($town),
                     'flag'         => 'w',
                 ];
-                var_dump($data);
+
                 $model = new UsersModel();
                 $user  = $model->insert($data);
 

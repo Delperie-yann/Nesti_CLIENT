@@ -1,0 +1,8 @@
+CRITICAL - 2021-06-05 18:31:23 --> Undefined index: password
+#0 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\UserController.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\app\Controllers\TagController.php(14): App\Controllers\UserController::getLoggedInUser()
+#2 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(936): App\Controllers\TagController->recipes('3')
+#3 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TagController))
+#4 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\www\Nesti_CodeIngniterdebug\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}

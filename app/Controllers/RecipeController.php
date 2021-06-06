@@ -113,11 +113,13 @@ class RecipeController extends BaseController
 			'idRecipe'    => $idRecipe,
 			'idUsers' => $user->idUsers
 		];
-		$userProfile->where($dataExist)->find();
-		if ($userProfile == Null) {
+		$isExistcomp=$userProfile->where($dataExist)->find();
+		
+		if ($isExistcomp == array(Null)) {
 			$userProfile->insert($data);
 			
 		}
+	
 
 		return redirect()->to('/detailsRecipe/' . $idRecipe);
 	}

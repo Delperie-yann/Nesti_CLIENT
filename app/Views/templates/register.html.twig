@@ -5,56 +5,56 @@
 		<div class="row">
 			<div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 mt-5 pt-3 pb-3 bg-white from-wrapper">
 				<div class="container">
-					<h3>Register</h3>
+					<h3>Enregistrement</h3>
 					<hr>
 
 
 					{{ form_open ( base_url('/register') )   }}
 					<div class="form-group">
-						<label for="text">Login</label>
+						<label for="text">Pseudo <i class="badge">(commencer par une majuscule)</i> </label>
 						<input type="text" class="form-control" name="login" id="login" value="" require>
 					</div>
 					<div class="form-group">
-						<label for="email">Email address <b>minimun 6 caratères  </b></label>
+						<label for="email">Adresse Email <b class="badge">minimun 6 caratères  </b></label>
 						<input type="text" class="form-control" name="email" id="email" value="" required>
 					</div>
 					<div class="form-group">
-						<label for="password">Password <b>minimun 8 caratères  </b></label>
+						<label for="password">Mot de passe<b class="badge">minimun 8 caratères  </b></label>
                             <input  class="form-control" type="password" class="w-75" name="password" id="pwd"
                             required>
 					</div>
                 
                     <hr>
 					<div class="form-group">
-						<label for="text">FirstName</label>
+						<label for="text">Prénom</label>
 						<input type="text" class="form-control" name="firstname" id="firstName" value="">
 					</div>
 					<div class="form-group">
-						<label for="text">Lastname</label>
+						<label for="text">Nom de famille</label>
 						<input type="text" class="form-control" name="lastname" id="lastname" value="">
 					</div>
 
 					<div class="form-group">
-						<label for="text">Adresse 1</label>
+						<label for="text">Adresse</label>
 						<input type="text" class="form-control" name="addresse1" id="Adresse1" value="">
 					</div>
 					<div class="form-group">
-						<label for="text">Adresse 2</label>
+						<label for="text">Adresse</label>
 						<input type="text" class="form-control" name="addresse2" id="Adresse2" value="">
 					</div>
 					<div class="form-group">
-						<label for="text">Zip code</label>
+						<label for="text">Code postal</label>
 						<input type="text" class="form-control" name="zipcode" id="Zipcode" value="">
 					</div>
 					<div class="form-group">
-						<label for="text">City</label>
+						<label for="text">Ville</label>
 						<input type="text" class="form-control" name="city" id="city" value="">
 					</div>
 
 
 					<div class="row">
 						<div class="col-12 col-sm-4">
-							<button type="submit" name="profileRegister" class="btn btn-primary">Envoyer</button>
+							<button type="submit" name="profileRegister" class="btn btn-info">Envoyer</button>
 						</div>
 						{{ validation.errors ? validation.errors.name}}
 						{{ form_close }}

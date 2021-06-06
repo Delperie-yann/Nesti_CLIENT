@@ -16,7 +16,7 @@
 					<p class="mt-5">Prénom</p>
 					<input type="text" class="w-75" name="userFirstname" value="{{user.firstName }}" required>
 
-					<p class="mt-5">Login</p>
+					<p class="mt-5">Pseudo</p>
 					<input type="text" class="w-75" name="userLogin" value="{{user.login }}" required>
 					{% if loginError  %}
 						<div class="alert alert-danger  w-50" role="alert">
@@ -33,12 +33,12 @@
 
 				</div>
 				<div class="col ">
-					<p class="mt-5">Adress1</p>
+					<p class="mt-5">Adresse</p>
 					<input type="text" class="w-75" name="userAddress1" value="{{user.address1 }}" required>
 
-					<p class="mt-5">Adress2</p>
+					<p class="mt-5">Adresse</p>
 					<input type="text" class="w-75" name="userAddress2" value="{{user.address2 }}" >
-					<p class="mt-5">Zipcode</p>
+					<p class="mt-5">Code postal</p>
 					<input type="text" class="w-75" name="userZipCode" value="{{user.zipCode }}" required>
 					{% if zipcodeError  %}
 						<div class="alert alert-danger  w-50" role="alert">

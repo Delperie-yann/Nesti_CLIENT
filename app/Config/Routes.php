@@ -32,10 +32,8 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->add('/', 'UserController::index');
-// $routes->add('/login', 'UserController::login');
+$routes->add('/', 'UserController::login');
 $routes->match(['get', 'post'],'login','UserController::login');
-// $routes->add('/register', 'UserController::register');
 $routes->match(['get', 'post'],'register','UserController::register');
 $routes->add('/logout', 'UserController::logout');
 $routes->add('/intro', 'RecipeController::index');
