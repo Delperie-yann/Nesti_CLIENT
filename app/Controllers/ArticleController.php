@@ -16,7 +16,7 @@ class ArticleController extends BaseController
 {
 	public function index()
 	{
-		$user = UserController::getLoggedInUser();
+		//$user = UserController::getLoggedInUser();
 		$articleModel = new ArticlesModel();
 		$articles = $articleModel->findAll();
 		
@@ -26,13 +26,18 @@ class ArticleController extends BaseController
 			}
 
 };
-
-		$this->twig->display('templates/articles.html', ['user' => $user, 'article' => $articles]);
+if (UserController::getLoggedInUser()!=array() ){
+	$user = UserController::getLoggedInUser();
+	$this->twig->display('templates/articles.html', ['user'=>$user, 'article' => $articles]);
+}else{
+	$this->twig->display('templates/articles.html', [ 'article' => $articles]);
+}
+		
 	}
 	public function detailsArticle($idArticle)
 	{
 		helper("form");
-		$user = UserController::getLoggedInUser();
+		//$user = UserController::getLoggedInUser();
 		$articleModel = new ArticlesModel();
 		$article = $articleModel->where('idArticle', $idArticle)
 			->findAll();
@@ -58,10 +63,13 @@ class ArticleController extends BaseController
 
 
 
-
-		$this->twig->display('templates/detailArticle.html', ['user' => $user, 'article' => $article, 'compose' => $RecipeNameObject]);
+	if (UserController::getLoggedInUser()!=array() ){
+		$user = UserController::getLoggedInUser();
+		$this->twig->display('templates/detailArticle.html', ['user'=>$user, 'article' => $article, 'compose' => $RecipeNameObject]);
+	}else{
+		$this->twig->display('templates/detailArticle.html', [ 'article' => $article, 'compose' => $RecipeNameObject]);
 	}
-
+	}
 
 	// $articleModel = new ArticlesModel();
 	// $article = $articleModel->where('idArticle', $idArticle)

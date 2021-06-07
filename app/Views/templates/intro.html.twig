@@ -1,15 +1,30 @@
 {% extends "base.html.twig" %}
 {% block body %}
-	{% if user.login != NULL %}
 
-		<div class="container">
-			<h2 class="">Acceuil</h2>
-			<p class="textCorp">Bonjour, et bien venu sur le site de Nesti Corp. Cette entreprise est issue d'une formation de reconversion... Vous trouverez des recettes qui emoustillerons vos papilles...</p>
+
+	<div class="container">
+		<h2 >Acceuil</h2>
+		<div class="textCorp">
+			<div class="media">
+				<div class="media-left mr-4">
+					<a href="#">
+						<img src="{{base_url("../img/Accueil1.jpg")}}" class=" intro" alt="Image accueil">
+					</a>
+				</div>
+				<div class="media-body">
+					<h4 class="media-heading">Message de bienvenu</h4>
+					<p> Bonjour, et bienvenu sur le site de Nesti Corp. Cette entreprise est issue d'une formation de reconversion... Vous trouverez des recettes qui emoustillerons vos papilles...
+					</p>
+
+				</div>
+			</div>
 		</div>
-	
-		<div class="container">
-        <h2 class="">
-    Historique des recettes</h2>
+	</div>
+
+	{% if user.login != NULL %}
+		<div class="container marg">
+			<h2 class="">
+				Historique des recettes</h2>
 			<p class="historique">
 				<ul class="list-group">
 					{% for i in 0..4 %}

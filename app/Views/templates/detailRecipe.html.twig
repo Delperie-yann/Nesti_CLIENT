@@ -1,46 +1,48 @@
 {% extends "base.html.twig" %}
 {% block body %}
-	{% if user.login != NULL %}
-		{% for rec in recipes %}
-			<div class="container">
-				<h2 class=" text-center">Detail de la recette</h2>
-				<a class="btntag" href='{{base_url('/recipes/') ~ '/' ~ rec.idCat}}'>{{rec.getCat(rec.idCat)}}</a>
-				<h3 class="font-weight-bold pt-5 text-center">{{rec.name}}</h3>
-				<div>
 
-					<img src="{{base_url("../images/recettes/"~ rec.getImageName(rec.idImage)~"."~ rec.getImageExtend(rec.idImage))}}" class="rounded mx-auto d-block" alt="Responsive image of this recipe">
-				</div>
-				<h3 class="font-weight-bold pt-5 ">Composition</h3>
-				<div class="card w-100">
-					<div
-						class="card-body">
-						{# {<pre>
-																																							{{ dump(compose) }}
-																																						</pre>} #}
-						{% for composed in compose %}
+	{% for rec in recipes %}
+		<div class="container">
+			<h2 class=" text-center">Detail de la recette</h2>
+			<a class="btntag" href='{{base_url('/recipes/') ~ '/' ~ rec.idCat}}'>{{rec.getCat(rec.idCat)}}</a>
+			<h3 class="font-weight-bold pt-5 text-center">{{rec.name}}</h3>
+			<div>
 
-							<p class="card-text">
-								-
-								{{composed.quantity}}
-								{{composed.getUnit(composed.idUnit)}}
-								de
-								{{composed.getProdName(composed.idUnit)}}</p>
-						{% endfor %}
-					</div>
+				<img src="{{base_url("../images/recettes/"~ rec.getImageName(rec.idImage)~"."~ rec.getImageExtend(rec.idImage))}}" class="rounded mx-auto d-block" alt="Responsive image of this recipe">
+			</div>
+			<h3 class="font-weight-bold pt-5 ">Composition</h3>
+			<div class="card w-100">
+				<div
+					class="card-body">
+					{# {<pre>
+																																												{{ dump(compose) }}
+																																											</pre>} #}
+					{% for composed in compose %}
+
+						<p class="card-text">
+							-
+							{{composed.quantity}}
+							{{composed.getUnit(composed.idUnit)}}
+							de
+							{{composed.getProdName(composed.idUnit)}}</p>
+					{% endfor %}
 				</div>
-				<h3 class="font-weight-bold pt-5 ">Preparation</h3>
+			</div>
+			<h3 class="font-weight-bold pt-5 ">Preparation</h3>
+			<div class="card w-100">
+				<div class="card-body">
+					{% for preparation in prep %}
+						<p class="card-text">{{preparation.content}}</p>
+					{% endfor %}
+				</div>
+			</div>
+			
+			{% if user.login != NULL %}
 				<div class="card w-100">
 					<div class="card-body">
-						{% for preparation in prep %}
-							<p class="card-text">{{preparation.content}}</p>
-						{% endfor %}
-					</div>
-				</div>
-
-				<div class="card w-100">
-					<div class="card-body">
-						<h5 class="card-title">Votre évaluation : 
-							{{ratting[0].rating}} </h5>
+						<h5 class="card-title">Votre évaluation :
+							{{ratting[0].rating}}
+						</h5>
 						<p class="card-text">
 							<div class="container">
 								<div class="row">
@@ -52,12 +54,13 @@
 										<input type="radio" id="star3" name="rating" value="3"/><label for="star3" title="Kinda bad">3 stars</label>
 										<input type="radio" id="star2" name="rating" value="2"/><label for="star2" title="Sucks big tim">2 stars</label>
 										<input type="radio" id="star1" name="rating" value="1"/><label for="star1" title="Sucks big time">1 star</label>
-									<p> (L'attribution ce fait avec un commentaire)</p>
+										<p>
+											(L'attribution ce fait avec un commentaire)</p>
 									</div>
 								</div>
 							</div>
 						</p>
-				
+
 
 						<label>
 							Votre Titre</label>
@@ -97,6 +100,6 @@
 						</div>
 					</div>
 				{% endfor %}
-			{% endfor %}
-		{% endif %}
+			{% endif %}	{% endfor %}
+		
 	{% endblock %}

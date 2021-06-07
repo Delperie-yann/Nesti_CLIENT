@@ -80,8 +80,17 @@ footer{
 }
 .textCorp{
 padding: 100px;
-background-color: #e0d9fa;
+background-color: #b1724a;
+color: white;
+border-radius: 10px;
 
+}
+.container.marg{
+    margin-top: 10px;
+}
+.intro{
+    height: 200px;
+    width: 200px;
 }
 
 a{

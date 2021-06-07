@@ -9,15 +9,21 @@ class SuggestController extends BaseController
 {
 	public function index()
 	{
-		$user = UserController::getLoggedInUser();
+		//$user = UserController::getLoggedInUser();
 		$recipesModel = new RecipesModel();
 		$recipes = $recipesModel->where('flag', 'a')
 		->findAll();
        
        
-	
+		if (UserController::getLoggedInUser()!=array() ){
+			$user = UserController::getLoggedInUser();
+			$this->twig->display('templates/suggest.html', ['user'=>$user,'recipes' => $recipes]);
+		
+		}else{
+			$this->twig->display('templates/suggest.html', ['recipes' => $recipes]);
+		}
 
-		$this->twig->display('templates/suggest.html', ['user' => $user,'recipes' => $recipes]);
+	
 	}
 
 }

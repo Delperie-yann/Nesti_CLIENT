@@ -11,7 +11,7 @@ class TagController extends BaseController
      * 
      */
     public function recipes($cat){
-        $user = UserController::getLoggedInUser();
+       // $user = UserController::getLoggedInUser();
         $recipesModel = new RecipesModel();
 		$recipes = $recipesModel->where('idCat', $cat)
 		->findAll();
@@ -20,7 +20,7 @@ class TagController extends BaseController
 				$recipe->idImage = "404";
 			}
 
-        $this->twig->display('templates/recipes.html', ['user' => $user,'recipes' => $recipes]);
+        $this->twig->display('templates/recipes.html', ['recipes' => $recipes]);
     
  }
 

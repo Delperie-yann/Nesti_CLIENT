@@ -23,7 +23,7 @@ class UserController extends BaseController
         helper(['form']);
         $this->twig->display('base.html');
     }
-
+   
 
     /**
      * login
@@ -64,7 +64,7 @@ class UserController extends BaseController
                 $userlogin = $user->login;
                 $array = array('login' => $userlogin, 'flag' => "b");
                 $userIsBlocked = $model->where($array)->find();
-                
+
                 if ($userIsBlocked == array()) {
 
                     if (isset($password) == true) {
@@ -93,13 +93,16 @@ class UserController extends BaseController
     public static function getLoggedInUser()
     {
         $encrypter   = \Config\Services::encrypter();
-        $passDecript = $encrypter->decrypt($_COOKIE['password']);
-        if (self::$loggedInUser == null && isset($_COOKIE['login'])) {
-            $model = new UsersModel();
-            $user  = $model->findUser($_COOKIE['login']);
-            if ($user != null && isset($passDecript)) {
-                self::$loggedInUser = $user;
-            };
+        if (isset($_COOKIE['password'])) {
+
+            $passDecript = $encrypter->decrypt($_COOKIE['password']);
+            if (self::$loggedInUser == null && isset($_COOKIE['login'])) {
+                $model = new UsersModel();
+                $user  = $model->findUser($_COOKIE['login']);
+                if ($user != null && isset($passDecript)) {
+                    self::$loggedInUser = $user;
+                };
+            }
         }
         return self::$loggedInUser;
     }
@@ -153,7 +156,7 @@ class UserController extends BaseController
             $error     = 0;
 
             $userAllReady = $model->where("login",  $login)->find();
-           
+
             if ($userAllReady == array()) {
 
                 if (!filter_var($email, FILTER_VALIDATE_EMAIL) && !preg_match('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/', $email)) {
@@ -211,7 +214,13 @@ class UserController extends BaseController
      */
     public function intro()
     {
-        $this->twig->display('layout/partials/_nav.html');
+        if (UserController::getLoggedInUser()!=array() ){
+			$user = UserController::getLoggedInUser();
+            $this->twig->display('templates/intro.html', ['user'=>$user]);
+		}else{
+            $this->twig->display('templates/intro.html');
+		}
+       
     }
 
     /**

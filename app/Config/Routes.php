@@ -36,7 +36,8 @@ $routes->add('/', 'UserController::login');
 $routes->match(['get', 'post'],'login','UserController::login');
 $routes->match(['get', 'post'],'register','UserController::register');
 $routes->add('/logout', 'UserController::logout');
-$routes->add('/intro', 'RecipeController::index');
+
+$routes->add('/intro', 'UserController::intro');
 $routes->add('/recipes', 'RecipeController::recipes');
 $routes->get('/recipes/(:num)', 'TagController::recipes/$1');
 $routes->add('/detailsRecipe/(:num)', 'RecipeController::detailsRecipe/$1');

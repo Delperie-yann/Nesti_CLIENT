@@ -1,6 +1,6 @@
 {% extends "base.html.twig" %}
 {% block body %}
-	{% if user.login != NULL %}
+	
 		{% for art in article %}
 			<div class="container">
 				<h2 class=" text-center">Detail de l'article</h2>
@@ -22,15 +22,16 @@
 					</div>
 				{% endif %}
 				</div>
+				{% if user.login != NULL %}
 				{# art.idArticle ~"/"~ art.getNameOfArticle(art.idProduct) ~"/"~ art.unitQuantity ~"/"~ art.getPrice(art.idArticle)    )#}
 				<div class="d-flex justify-content-center p-2">
 					<button id='but' type="button" onclick="add()" data-name="{{ art.getNameOfArticle(art.idProduct) }}" data-quantity="{{ art.unitQuantity }}"  data-price="{{(art.unitQuantity) * (art.getPrice(art.idArticle))}}" class="btn btn-info">Ajouter au panier</button>
 				</div>
-				 
+				 {% endif %}
 					
 			</div>
 			
 		{% endfor %}
-	{% endif %}
+	
 	
 {% endblock %}

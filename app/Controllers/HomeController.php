@@ -11,7 +11,7 @@ class HomeController extends BaseController
 	public function index()
 	{
 		$user  = UserController::getLoggedInUser();
-		var_dump($user);
+		
 		// $this->twig->display('intro.html', ['user' => $user]);
 		
 	}

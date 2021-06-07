@@ -21,12 +21,13 @@ class RecipeController extends BaseController
 	
 	public function index()
 	{
-		$user  = UserController::getLoggedInUser();
-		$this->twig->display('intro.html', ['user' => $user]);
+
+		//$user  = UserController::getLoggedInUser();
+		$this->twig->display('intro.html');
 	}
 	public function recipes()
 	{
-		$user = UserController::getLoggedInUser();
+		//$user = UserController::getLoggedInUser();
 		$recipesModel = new RecipesModel();
 		$recipes = $recipesModel->where('flag', 'a')
 			->findAll();
@@ -37,13 +38,19 @@ class RecipeController extends BaseController
 			}
 		};
 
-
-		$this->twig->display('templates/recipes.html', ['user' => $user, 'recipes' => $recipes]);
+		if (UserController::getLoggedInUser()!=array() ){
+			$user = UserController::getLoggedInUser();
+			$this->twig->display('templates/recipes.html', ['user'=>$user,'recipes' => $recipes]);
+		
+		}else{
+			$this->twig->display('templates/recipes.html', ['recipes' => $recipes]);
+		}
+	
 	}
 	public function detailsRecipe($id)
 	{
 		helper("form");
-		$user = UserController::getLoggedInUser();
+		
 		$recipesModel = new RecipesModel();
 		$recipes = $recipesModel->where('idRecipe', $id)
 			->findAll();
@@ -56,18 +63,25 @@ class RecipeController extends BaseController
 		$Prep = $paragraph->where('idRecipe', $id)->findAll();
 		$comp = new IngredientrecipeModel();
 		$compose = $comp->where('idRecipe', $id)->find();
+		
+		
 
 		$comm = new CommentModel();
 		$comment = $comm->where('idRecipe', $id)->findAll();
 		$grad = new GradesModel();
 		$data2 = [
-			'idRecipe'    => $id,
-			'idUsers' => $user->idUsers
+			'idRecipe'    => $id
+		//	,'idUsers' => $user->idUsers
 		];
 		$hisRating = $grad->where($data2)->findAll();
 
-
-		$this->twig->display('templates/detailRecipe.html', ['user' => $user, 'recipes' => $recipes, 'prep' => $Prep, 'compose' => $compose, 'comment' => $comment, 'ratting' => $hisRating]);
+		if (UserController::getLoggedInUser()!=array() ){
+			$user = UserController::getLoggedInUser();
+			$this->twig->display('templates/detailRecipe.html', ['user'=>$user, 'recipes' => $recipes, 'prep' => $Prep, 'compose' => $compose, 'comment' => $comment, 'ratting' => $hisRating]);
+		}else{
+			$this->twig->display('templates/detailRecipe.html', [ 'recipes' => $recipes, 'prep' => $Prep, 'compose' => $compose]);
+		}
+		
 	}
 
 
@@ -79,6 +93,7 @@ class RecipeController extends BaseController
 		$commentContent = filter_input(INPUT_POST, 'textCom', FILTER_SANITIZE_STRING);
 		$rating = filter_input(INPUT_POST, 'rating', FILTER_SANITIZE_STRING);
 		if ($rating != NULL) {
+		
 			$dataGrade = [
 				'idUsers' => $user->idUsers,
 				'idRecipe' => $idRecipe,
