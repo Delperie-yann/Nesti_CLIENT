@@ -10,16 +10,15 @@
 
 
 				<div class="btn-group">
-				<a class="btntag" href='{{base_url('/recipes/1')}}'>Facile</a>
-				<a class="btntag" href='{{base_url("/recipes/2")}}'>Gluten</a>
-				<a class="btntag" href='{{base_url("/recipes/3")}}'>Saison</a>
-				<a class="btntag" href='{{base_url("/recipes/4")}}'>Tradition</a>
+					<a class="btntag" href='{{base_url('/recipes/1')}}'>Facile</a>
+					<a class="btntag" href='{{base_url("/recipes/2")}}'>Gluten</a>
+					<a class="btntag" href='{{base_url("/recipes/3")}}'>Saison</a>
+					<a class="btntag" href='{{base_url("/recipes/4")}}'>Tradition</a>
 				</div>
 
 			</div>
 		</div>
 
-	
 
 		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
 			{% for rec in recipes %}
@@ -31,19 +30,20 @@
 							<h5 class="card-title text-center">{{rec.name}}</h5>
 
 							<a href="{{base_url("/detailsRecipe")}}/{{rec.idRecipe}}" class="btn Detail d-block">Detail de la recette</a>
-							
-							<p class="card-text text-center">Note : {{rec.getGrade(rec.idRecipe)}}
+
+							<p class="card-text text-center">Note :
+								{{rec.getGrade(rec.idRecipe)}}
 							</p>
 
-									
-							<a href="{{base_url("/detailsRecipe")}}/{{rec.idRecipe}}" class="btn Commentaire d-block">Commentaire
-							</a>
+							{% if user %}
+								<a href="{{base_url("/detailsRecipe")}}/{{rec.idRecipe}}" class="btn Commentaire d-block">Commentaire
+								</a>
+							{% endif %}
 						</div>
 					</div>
 				</div>
 
 
-				
 			{% endfor %}
 		</div>
 	</div>

@@ -34,7 +34,7 @@ class UserController extends BaseController
     {
 
         helper("form");
-
+        
         if (!empty($_POST)) {
             $error = 0;
             $login     = filter_input(INPUT_POST, 'login', FILTER_SANITIZE_STRING);
@@ -59,7 +59,7 @@ class UserController extends BaseController
                 $login = $_COOKIE['login']    = $encrypter->encrypt($login);
                 $password = $_COOKIE['password'] = $encrypter->encrypt($password);
                 $model = new UsersModel();
-
+               
                 $user = $model->findUser($encrypter->decrypt($login));
                 $userlogin = $user->login;
                 $array = array('login' => $userlogin, 'flag' => "b");
@@ -198,10 +198,12 @@ class UserController extends BaseController
                     return redirect()->to('/login');
                 } else {
                     $this->twig->display('templates/register.html', $dataError);
+                    die;
                 }
             } else {
                 $dataError['user'] = true;
                 $this->twig->display('templates/register.html', $dataError);
+                die;
             }
         }
 

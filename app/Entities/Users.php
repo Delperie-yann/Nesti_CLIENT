@@ -17,7 +17,7 @@ class Users extends Entity
    {
       $grade = new CityModel();
       $cityName = $grade->where('idCity', $number)->find();
-      $Rating = $cityName[0]->name;
+      $Rating = $cityName?$cityName[0]->name:"";
       return   $Rating;
    }
 

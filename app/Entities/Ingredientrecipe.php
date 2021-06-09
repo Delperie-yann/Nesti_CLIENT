@@ -17,7 +17,7 @@ class Ingredientrecipe extends Entity
    {
       $unit = new UnitModel();
       $compose = $unit->where('idUnit', $number)->find();
-      $idNameUnit = $compose[0]->name;
+      $idNameUnit =  $compose? $compose[0]->name:"";
       return   $idNameUnit;
    }
    /**
@@ -29,7 +29,7 @@ class Ingredientrecipe extends Entity
       $prod = new ProductModel();
       $product = $prod->where('idProduct', $number)->find();
 
-      $idNameProd = $product[0]->name;
+      $idNameProd = $product?$product[0]->name:"";
       return   $idNameProd;
    }
 }

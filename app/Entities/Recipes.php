@@ -40,19 +40,20 @@ class Recipes extends Entity
    {
       $name = new UsersModel();
       $compose = $name->where('idUsers', $number)->find();
-      $name = $compose[0]->name;
+      $name = $compose?$compose[0]->name : "";
       return   $name;
    }
    /**
     * @param string $number
     * @return CatModel|null
     */
-   public function getCat(string $number) 
+   public function getCat() 
    {
       $cat = new CatModel();
-      $tag = $cat->where('id', $number)->find();
-      $name = $tag[0]->name;
-      return   $name;
+      $tag = $cat->where('id',$this->idCat)->find();
+      $name = $tag ? $tag[0]->name : "";
+    
+     return   $name;
    }
    /**
     * @param string $idImage
@@ -62,7 +63,7 @@ class Recipes extends Entity
    {
       $fomrt = new ImageModel();
       $image = $fomrt->where('idImage', $idImage)->find();
-      $name = $image[0]->name;
+      $name = $image?$image[0]->name : "";
       return   $name;
    }
    /**
@@ -73,7 +74,7 @@ class Recipes extends Entity
    {
       $fomrt = new ImageModel();
       $image = $fomrt->where('idImage', $idImage)->find();
-      $val = $image[0]->fileExtension;
+      $val = $image? $image[0]->fileExtension: "";
       return   $val;
    }
 }

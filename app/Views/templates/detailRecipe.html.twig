@@ -4,7 +4,9 @@
 	{% for rec in recipes %}
 		<div class="container">
 			<h2 class=" text-center">Detail de la recette</h2>
-			<a class="btntag" href='{{base_url('/recipes/') ~ '/' ~ rec.idCat}}'>{{rec.getCat(rec.idCat)}}</a>
+			{% if rec.getCat() %}
+			<a class="btntag" href='{{base_url('/recipes/') ~ '/' ~ rec.idCat}}'>{{rec.getCat()}}</a>
+			{% endif %}
 			<h3 class="font-weight-bold pt-5 text-center">{{rec.name}}</h3>
 			<div>
 
