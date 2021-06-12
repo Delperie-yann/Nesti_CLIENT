@@ -36,45 +36,24 @@ $routes->add('/', 'UserController::login');
 $routes->match(['get', 'post'],'login','UserController::login');
 $routes->match(['get', 'post'],'register','UserController::register');
 $routes->add('/logout', 'UserController::logout');
-
 $routes->add('/intro', 'UserController::intro');
 $routes->add('/recipes', 'RecipeController::recipes');
 $routes->get('/recipes/(:num)', 'TagController::recipes/$1');
 $routes->add('/detailsRecipe/(:num)', 'RecipeController::detailsRecipe/$1');
 $routes->add('/editdetailsRecipe/(:num)', 'RecipeController::editdetailsRecipe/$1');
-
-
 $routes->add('/suggest', 'SuggestController::index');
 $routes->add('/article', 'ArticleController::index');
-
 $routes->add('/detailsArticle/(:num)', 'ArticleController::detailsArticle/$1');
-
-
 $routes->add('/profile', 'ProfileController::index');
-
-
-
-
 $routes->add('/buy', 'BuyController::index');
-
+//api route
 $routes->get('/(:any)/api',"ApiController::index/$1");
 $routes->get('/(:any)/api/recipes',"ApiController::recipes/$1");
 $routes->get('/(:any)/api/category/(:alpha)',"ApiController::category/$1/$2");
 $routes->get('/(:any)/api/ingredient/(:num)',"ApiController::ingredient/$1/$2");
 $routes->get('/(:any)/api/search/(:alpha)',"ApiController::search/$1/$2");
 $routes->get('/(:any)/api/paragraph/(:num)',"ApiController::paragraph/$1/$2");
-// $routes->add('/tags', 'TagController::allTags');
 
-// $routes->add('/tags/(:num)', 'TagController::read/$1');
-// $routes->add('/tags/(:num)/edit', 'TagController::editTag/$1');
-
-// $routes->add('/tags/create', 'TagController::createTag');
-// $routes->add('/tags/search', 'TagController::searchTag');
-
-// $routes->match(['get', 'post'], 'form', "FormController::index");
-// $routes->get('/api',"ApiController::index");
-// $routes->get('/api/recipes',"ApiController::recipes");
-// $routes->get('/api/category/(:alpha)',"ApiController::category/$1");
 
 
 /*

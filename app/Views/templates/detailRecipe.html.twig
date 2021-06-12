@@ -5,7 +5,7 @@
 		<div class="container">
 			<h2 class=" text-center">Detail de la recette</h2>
 			{% if rec.getCat() %}
-			<a class="btntag" href='{{base_url('/recipes/') ~ '/' ~ rec.idCat}}'>{{rec.getCat()}}</a>
+				<a class="btntag" href='{{base_url('/recipes/') ~ '/' ~ rec.idCat}}'>{{rec.getCat()}}</a>
 			{% endif %}
 			<h3 class="font-weight-bold pt-5 text-center">{{rec.name}}</h3>
 			<div>
@@ -17,8 +17,8 @@
 				<div
 					class="card-body">
 					{# {<pre>
-																																												{{ dump(compose) }}
-																																											</pre>} #}
+																																																																{{ dump(compose) }}
+																																																															</pre>} #}
 					{% for composed in compose %}
 
 						<p class="card-text">
@@ -38,8 +38,9 @@
 					{% endfor %}
 				</div>
 			</div>
-			
+
 			{% if user.login != NULL %}
+				<h3 class="font-weight-bold pt-5 ">Créer votre commentaire</h3>
 				<div class="card w-100">
 					<div class="card-body">
 						<h5 class="card-title">Votre évaluation :
@@ -71,6 +72,7 @@
 							Votre commentaire</label>
 						<input type="text" class="w-75" name="textCom" value="">
 					</div>
+
 					<div class="col-12 col-sm-4">
 						<button type="submit" class="btn btn-primary">Envoyer</button>
 					</div>
@@ -81,8 +83,12 @@
 
 				</div>
 
+			{% endif %}
+			{% for com in comment %}
+		
+				{% if com.flag == "a" or com.flag =="w" %}
 
-				{% for com in comment %}
+					<h3 class="font-weight-bold pt-5 ">Commentaire</h3>
 					<div class="card w-100">
 						<div class="card-body">
 							<div class="card w-100">
@@ -101,7 +107,8 @@
 
 						</div>
 					</div>
-				{% endfor %}
-			{% endif %}	{% endfor %}
-		
+				{% endif %}
+			{% endfor %}
+		{% endfor %}
+
 	{% endblock %}

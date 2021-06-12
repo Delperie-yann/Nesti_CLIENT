@@ -25,14 +25,22 @@
 
 				<div class="col mb-4">
 					<div class="card">
-						<img src="{{base_url("../images/recettes/"~ rec.getImageName(rec.idImage)~"."~ rec.getImageExtend(rec.idImage))}}" class="img-fluid" alt="Responsive image of card">
+						
+						<a href="{{base_url("/detailsRecipe")}}/{{rec.idRecipe}}">
+							<img src="{{base_url("../images/recettes/"~ rec.getImageName(rec.idImage)~"."~ rec.getImageExtend(rec.idImage))}}" class="card-img-top" alt="Responsive image of card">
+						</a>
 						<div class="card-body">
 							<h5 class="card-title text-center">{{rec.name}}</h5>
 
-							<a href="{{base_url("/detailsRecipe")}}/{{rec.idRecipe}}" class="btn Detail d-block">Detail de la recette</a>
+							<a href="{{base_url("/detailsRecipe")}}/{{rec.idRecipe}}" class="btn Detail d-block stretched-link">Detail de la recette</a>
 
 							<p class="card-text text-center">Note :
-								{{rec.getGrade(rec.idRecipe)}}
+
+								{% if rec.getGrade(rec.idRecipe) != 0 %}
+									{{rec.getGrade(rec.idRecipe)}}
+								{% else %}
+									pas notée
+								{% endif %}
 							</p>
 
 							{% if user %}

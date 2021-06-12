@@ -12,11 +12,13 @@
 			<div class="card w-100">
 				<div class="card-body">
 					{% if compose != NULL %}
-
-
+				
+					
 						{% for row in compose %}
 							<p class="card-text">
-								{{row}}
+						
+						<a href="{{base_url("/detailsRecipe")}}/{{row.idRecipe}}">{{ row.name }}</a>
+						
 							</p>
 						{% endfor %}
 					</div>

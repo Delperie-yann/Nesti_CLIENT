@@ -7,7 +7,7 @@ use App\Models\ArticlesModel;
 use App\Models\ProductModel;
 use App\Models\ImageModel;
 use App\Models\ArticlePriceModel;
-
+use App\Models\LotModel;
 class Articles extends Entity
 {
    /**
@@ -71,4 +71,24 @@ class Articles extends Entity
    }
       return   $val;
    }
+    /**
+    * @param  $idArticle
+    * @return LotModel|string
+    */
+    public function getLotQuant( $idArticle)
+    {
+      $LotModel = new LotModel();
+      
+      $Lot = $LotModel->where("idArticle", $idArticle)->first();
+      if($Lot!= Null){
+         $val= $Lot->quantity;
+      }else{
+         $val= 0;
+      }
+     
+      return   $val;
+    }
+ 
+   
+   
 }

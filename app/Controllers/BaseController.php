@@ -27,7 +27,7 @@ class BaseController extends Controller
 	 *
 	 * @var array
 	 */
-	protected $helpers = [];
+	protected $helpers = ["form","security","url"];
 
 	/**
 	 * Constructor.
@@ -41,7 +41,8 @@ class BaseController extends Controller
 		// Do Not Edit This Line
 		parent::initController($request, $response, $logger);
 
-
+		$this->session=session();
+		
 		
 		$this->twig = new \Kenjis\CI4Twig\Twig();
 

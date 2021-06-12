@@ -26,7 +26,7 @@ class Recipes extends Entity
             $ratingOne = (int) ($comp->rating);
             $tot =  $tot + $ratingOne;
          }
-         $round = round($tot / count($compose), 0);
+         $round = round($tot / count($compose), 1);
       } else {
          $round = 0;
       }

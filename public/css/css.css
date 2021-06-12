@@ -117,8 +117,11 @@ margin-right: 50px;
     border-radius: 20px!important;
     height: 100%;
 }
-
-.img-fluid{
+.cardimgSize{
+    height: 250px!important;
+    width: 250px!important;
+}
+.card-img-top{
     padding: 10px;
     height: 100%!important;
     width: 100%!important;

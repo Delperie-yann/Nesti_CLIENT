@@ -21,18 +21,5 @@
 		</div>
 	</div>
 
-	{% if user.login != NULL %}
-		<div class="container marg">
-			<h2 class="">
-				Historique des recettes</h2>
-			<p class="historique">
-				<ul class="list-group">
-					{% for i in 0..4 %}
-						<li class="list-group-item">{{cart.prixProduit}}</li>
-
-					{% endfor %}
-				</ul>
-			</p>
-		</div>
-	{% endif %}
+	
 {% endblock %}

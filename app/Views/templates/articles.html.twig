@@ -17,7 +17,8 @@
 								
 
 									<p class="card-text text-center">Etat:
-										{% if art.flag =="w" or (art.getPrice(art.idArticle) == 0 ) %}
+								
+										{% if art.flag =="w" or (art.getPrice(art.idArticle) == 0 ) or  (art.getLotQuant(art.idArticle)==0) %}
 											En rupture
 										{% elseif  art.flag =="a" %}
 											Actif

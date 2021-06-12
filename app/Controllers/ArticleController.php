@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-
+use App\Entities\ArticlePrice;
 use App\Models\UsersModel;
 use App\Models\RecipesModel;
 use App\Models\ParagraphModel;
@@ -11,14 +11,21 @@ use App\Models\IngredientrecipeModel;
 use App\Models\ProductModel;
 use App\Models\GradesModel;
 use App\Models\ArticlesModel;
+use App\Models\LotModel;
 
 class ArticleController extends BaseController
 {
 	public function index()
 	{
+		
 		//$user = UserController::getLoggedInUser();
 		$articleModel = new ArticlesModel();
 		$articles = $articleModel->findAll();
+		
+		
+
+
+
 
 		foreach ($articles as $article) {
 			if ($article->idImage == Null) {
@@ -52,7 +59,7 @@ class ArticleController extends BaseController
 
 
 				$RecipeName = $recipe->where('idRecipe', $list)->first();
-				$RecipeNameObject[] = $RecipeName->name;
+				$RecipeNameObject[] = $RecipeName;
 			}
 		} else {
 			$RecipeNameObject[] = "";

@@ -52,18 +52,11 @@ var listElement = document.querySelectorAll('#but');
             content.innerHTML +=
                 '<tr><th id="name" scope="row" >'
                 +j.type + '</th><td id="number">'
-                + Number(j.number)+'</td><td>'+ '<button  id="minus" class="ml-2">-</button><button  id="add" class="ml-2">+</button><button id="supp" class="bg-danger ml-2">X</button>'+'</td><td>'
+                + Number(j.number)+'</td><td>'+ '<button  id="minus" class="btn btn-secondary ml-2">-</button><button  id="add" class="btn btn-secondary ml-2">+</button><button id="supp" class="btn btn-danger ml-2">X</button>'+'</td><td>'
                 + Number(j.price)+'</td><td id="somme">'
                 + nbof +'</td></tr></tbody>';
 
-            // '<li> <span class="mr-5">' 
-            // + j.type + '</span>  <label >'
-            //  + Number(j.number) +
-            //     ' </label> X '
-            //      + Number(j.price)
-            //       + '€ = <label id="somme">' 
-            //       + nbof +
-            //     '</label>€<a class="ml-2">-</a><a class="ml-2">+</a><a class="bg-danger ml-2">X</a></li>';
+       
 
             total += nbof;
         }}
@@ -71,9 +64,9 @@ var listElement = document.querySelectorAll('#but');
         totalLabel.innerHTML = total + " €";
 
         var panier = content.querySelectorAll('td>:nth-child(3)');
-// console.log("panier",panier);
+
         panier.forEach(element => {
-            console.log('ee')
+           
             element.addEventListener('click', deletep);
 
         });
@@ -109,7 +102,7 @@ var listElement = document.querySelectorAll('#but');
          
             datain.forEach(ele => {
                 if (ele == textEnter) {
-                    console.log(datain);
+                  
                     var valueIn = element.querySelector('#name').textContent;
                     element.remove();
 
