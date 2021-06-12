@@ -47,7 +47,7 @@ $routes->add('/detailsArticle/(:num)', 'ArticleController::detailsArticle/$1');
 $routes->add('/profile', 'ProfileController::index');
 $routes->add('/buy', 'BuyController::index');
 //api route
-$routes->get('/(:any)/api',"ApiController::index/$1");
+$routes->get('/api',"ApiController::index");
 $routes->get('/(:any)/api/recipes',"ApiController::recipes/$1");
 $routes->get('/(:any)/api/category/(:alpha)',"ApiController::category/$1/$2");
 $routes->get('/(:any)/api/ingredient/(:num)',"ApiController::ingredient/$1/$2");

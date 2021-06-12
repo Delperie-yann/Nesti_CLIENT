@@ -4,7 +4,12 @@ namespace App\Controllers;
 
 class BuyController extends BaseController
 {
-
+   
+   /**
+    * index
+    *
+    * @return void
+    */
    public function index()
    { 
 

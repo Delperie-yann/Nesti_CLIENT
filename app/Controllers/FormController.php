@@ -2,7 +2,12 @@
 namespace App\Controllers;
 use CodeIgniter\Controller;
 class FormController extends Controller
-{
+{    
+    /**
+     * index
+     *
+     * @return void
+     */
     public function index(){ 
                helper(['form', 'url']);
 

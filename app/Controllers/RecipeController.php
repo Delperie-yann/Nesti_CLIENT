@@ -5,7 +5,7 @@ namespace App\Controllers;
 use App\Entities\Grades;
 
 use App\Models\UsersModel;
-use \DateTime;
+use \DateTime; 
 use App\Models\RecipesModel;
 use App\Models\ParagraphModel;
 use App\Models\UnitModel;
@@ -23,12 +23,12 @@ class RecipeController extends BaseController
 	public function index()
 	{
 
-		//$user  = UserController::getLoggedInUser();
+	
 		$this->twig->display('intro.html');
 	}
 	public function recipes()
 	{
-		//$user = UserController::getLoggedInUser();
+		
 		$recipesModel = new RecipesModel();
 		$recipes = $recipesModel->where('flag', 'a')->findAll();
 
@@ -111,11 +111,11 @@ class RecipeController extends BaseController
 		}
 		if ($commentTitle != "" && $commentContent != "") {
 			helper('date');
-
-
-			date_default_timezone_set('Europe/Paris');
-			$dateNow = date('y-m-d H:i:s');
-
+			
+			
+		date_default_timezone_set('Europe/Paris');
+		$dateNow= date('y-m-d H:i:s');
+			
 			$data = [
 				'idRecipe'    => $idRecipe,
 				'idUsers' => $user->idUsers,
@@ -123,7 +123,7 @@ class RecipeController extends BaseController
 				'commentContent' => $commentContent,
 				'flag' => 'w',
 				'idModerator' => '1',
-				'dateCreation' => $dateNow
+				'dateCreation'=> $dateNow
 			];
 			$userProfile = new CommentModel();
 			$dataExist = [

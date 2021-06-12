@@ -19,7 +19,7 @@ class UsersModel extends Model
    
     /**
      * @param string $login
-     * @return Users|object
+     * @return Users|object|null
      */
     public function findUser(string $login) 
     {

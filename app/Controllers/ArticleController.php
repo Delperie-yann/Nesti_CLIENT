@@ -17,16 +17,8 @@ class ArticleController extends BaseController
 {
 	public function index()
 	{
-		
-		//$user = UserController::getLoggedInUser();
 		$articleModel = new ArticlesModel();
 		$articles = $articleModel->findAll();
-		
-		
-
-
-
-
 		foreach ($articles as $article) {
 			if ($article->idImage == Null) {
 				$article->idImage = "404";
@@ -42,7 +34,7 @@ class ArticleController extends BaseController
 	public function detailsArticle($idArticle)
 	{
 		helper("form");
-		//$user = UserController::getLoggedInUser();
+		
 		$articleModel = new ArticlesModel();
 		$article = $articleModel->where('idArticle', $idArticle)
 			->findAll();
@@ -75,18 +67,6 @@ class ArticleController extends BaseController
 		}
 	}
 
-	// $articleModel = new ArticlesModel();
-	// $article = $articleModel->where('idArticle', $idArticle)
-	// ->first();
-
-
-	// // var_dump( $article->idProduct);
-	// $comp = new IngredientrecipeModel();
-
-
-	// $compose  = $comp->where('idProduct', ($article->idProduct))->findAll();
-	// foreach( $compose as $com){
-	// 	var_dump( $com->idRecipe);
-	// }
+	
 
 }

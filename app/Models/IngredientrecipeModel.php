@@ -5,7 +5,7 @@ namespace App\Models;
 use CodeIgniter\Model;
 
 
-class ingredientrecipeModel extends Model
+class IngredientrecipeModel extends Model
 {
     protected $table         = 'ingredientrecipe';
       /**

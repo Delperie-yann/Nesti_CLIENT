@@ -1,54 +1,41 @@
 {% extends "base.html.twig" %}
 {% block body %}
 
-		<div class="container">
-			<h2 class=" text-center">Marché</h2>
+	<div class="container">
+		<h2 class=" text-center">Marché</h2>
 
 
-			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
-				{% for art in article %}
-					{% if art.flag != "b" %}
-						<div class="col mb-4">
-							<div class="card">
+		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+			{% for art in article %}
+				{% if art.flag != "b" %}
+				
 
-								<img src="{{base_url("../images/ingredients/"~ art.getImageName(art.idImage)~"."~ art.getImageExtend(art.idImage))}}" class="img-fluid" alt="Responsive image of this card">
-								<div class="card-body">
-									<h5 class="card-title text-center">{{art.getNameOfArticle(art.idProduct)}}</h5>
-								
-
-									<p class="card-text text-center">Etat:
-								
-										{% if art.flag =="w" or (art.getPrice(art.idArticle) == 0 ) or  (art.getLotQuant(art.idArticle)==0) %}
-											En rupture
-										{% elseif  art.flag =="a" %}
-											Actif
-										{% endif %}
-
-									</p>
-									<p class="card-text text-center">Prix :
-									
-									
-									
-									
-
-									
-										{{(art.unitQuantity) * (art.getPrice(art.idArticle))}}
-										euro
-									</p>
-
-									<a href="{{base_url("/detailsArticle")}}/{{art.idArticle}}" class="btn Detail d-block">Detail de l'article</a>
-
-
-									
-
-								</div>
+					<div class="col mb-4">
+						<div class="card">
+							<a href="{{base_url("/detailsArticle")}}/{{art.idArticle}}">
+								<img src="{{base_url("../images/ingredients/"~ art.getImageName(art.idImage)~"."~ art.getImageExtend(art.idImage))}}" class="card-img-top" alt="Responsive image of this card">
+							</a>
+							<div class="card-body">
+								<h5 class="card-title text-center">{{art.getNameOfArticle(art.idProduct)}}</h5>
+								<p class="card-text text-center">Etat:
+									{% if art.flag =="w" or (art.getPrice(art.idArticle) == 0 ) or  (art.getLotQuant(art.idArticle)==0) %}
+										En rupture
+									{% elseif  art.flag =="a" %}
+										Actif
+									{% endif %}
+								</p>
+								<p class="card-text text-center">Prix :
+									{{(art.unitQuantity) * (art.getPrice(art.idArticle))}}
+									euro
+								</p>
+								<a href="{{base_url("/detailsArticle")}}/{{art.idArticle}}" class="btn Detail d-block">Detail de l'article</a>
 							</div>
 						</div>
+					</div>
+				{% endif %}
 
-					{% endif %}
-
-				{% endfor %}
-			</div>
+			{% endfor %}
 		</div>
+	</div>
 
 {% endblock %}

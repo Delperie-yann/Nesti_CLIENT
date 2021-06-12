@@ -40,11 +40,13 @@ class Recipes extends Entity
    {
       $name = new UsersModel();
       $compose = $name->where('idUsers', $number)->find();
-      $name = $compose?$compose[0]->name : "";
+      $name = $compose ? $compose[0]->name : "";
       return   $name;
    }
+    
    /**
-    * @param string $number
+    * getCat
+    *
     * @return CatModel|null
     */
    public function getCat() 
