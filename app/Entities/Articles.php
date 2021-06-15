@@ -10,14 +10,19 @@ use App\Models\ArticlePriceModel;
 use App\Models\LotModel;
 class Articles extends Entity
 {
+
+  
    /**
-    * @param string $idProduct
+    *
     * @return ProductModel|string
     */
-   public function getNameOfArticle(string $idProduct)
+   public function getNameOfArticle()
    {
       $grade = new ProductModel();
-      $ArticleName = $grade->where('idProduct', $idProduct)->find();
+
+
+     
+      $ArticleName = $grade->where('idProduct', $this->idProduct)->find();
 
       $name = $ArticleName? $ArticleName[0]->name :"";
 
@@ -27,11 +32,11 @@ class Articles extends Entity
     * @param  $idImage
     * @return ImageModel|string
     */
-   public function getImageName( $idImage)
+   public function getImageName( )
    {
       $fomrt = new ImageModel();
-      if ($idImage != NULL) {
-         $image = $fomrt->where('idImage', $idImage)->find();
+      if ($this->idImage != NULL) {
+         $image = $fomrt->where('idImage', $this->idImage)->find();
          $name = $image?$image[0]->name:"";
       } else{
          $name = "404image";
@@ -56,14 +61,14 @@ class Articles extends Entity
    }
 
    /**
-    * @param  $idArticle
+    * 
     * @return ArticlePriceModel|string
     */
-   public function getPrice( $idArticle)
+   public function getPrice()
    {
       $fomrt = new ArticlePriceModel();
      
-      $price = $fomrt->where('idArticle', $idArticle)->find();
+      $price = $fomrt->where('idArticle', $this->idArticle)->find();
       if ($price != NULL) {
       $val = $price?$price[0]->price :"";
     } else{
@@ -72,14 +77,14 @@ class Articles extends Entity
       return   $val;
    }
     /**
-    * @param  $idArticle
+    * 
     * @return LotModel|string
     */
-    public function getLotQuant( $idArticle)
+    public function getLotQuant( )
     {
       $LotModel = new LotModel();
       
-      $Lot = $LotModel->where("idArticle", $idArticle)->first();
+      $Lot = $LotModel->where("idArticle", $this->idArticle)->first();
       if($Lot!= Null){
          $val= $Lot->quantity;
       }else{

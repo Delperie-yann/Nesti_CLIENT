@@ -15,7 +15,7 @@ class RecipesModel extends Model
      */
     protected $allowedFields = ['idRecipe', 'dateCreation', 'name', 'difficulty', 'portions', 'flag', 'preparationsTime', 'idChef', 'idImage', 'idCat'];
     protected $returnType    = 'App\Entities\Recipes';
-
+    protected $primaryKey = 'idRecipe';
 
 
     /**

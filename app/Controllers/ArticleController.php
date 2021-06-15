@@ -17,6 +17,8 @@ class ArticleController extends BaseController
 {
 	public function index()
 	{
+
+	
 		$articleModel = new ArticlesModel();
 		$articles = $articleModel->findAll();
 		foreach ($articles as $article) {
@@ -32,7 +34,7 @@ class ArticleController extends BaseController
 		}
 	}
 	public function detailsArticle($idArticle)
-	{
+	{$data["slug"]="article";
 		helper("form");
 		
 		$articleModel = new ArticlesModel();

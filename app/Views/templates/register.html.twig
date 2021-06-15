@@ -5,15 +5,16 @@
 		<div class="row">
 			<div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 mt-5 pt-3 pb-3 bg-white from-wrapper">
 				<div class="container">
-					<h3>Enregistrement</h3>
+					<h2>Enregistrement</h2>
 					<hr>
 
 
 					{{ form_open ( base_url('/register') )   }}
 					<div class="form-group">
-						<label for="text">Pseudo
+						<label for="login">Pseudo
 							<i class="badge">(commencer par une majuscule)</i>
 						</label>
+					
 						{% if validation.hasError('login') %}
 							<div>{{validation.getError("login")}}
 							</div>
@@ -32,7 +33,7 @@
 						<input type="text" class="form-control" name="email" id="email" value="" required>
 					</div>
 					<div class="form-group">
-						<label for="password">Mot de passe<b class="badge">minimun 8 caratères
+						<label for="pwd">Mot de passe<b class="badge">minimun 8 caratères
 							</b>
 						</label>
 						{% if validation.hasError('password') %}
@@ -44,7 +45,7 @@
 
 					<hr>
 					<div class="form-group">
-						<label for="text">Prénom</label>
+						<label for="firstname">Prénom</label>
 						{% if validation.hasError('firstname') %}
 							<div>{{validation.getError("firstname")}}
 							</div>
@@ -52,7 +53,7 @@
 						<input type="text" class="form-control" name="firstname" id="firstname" value="">
 					</div>
 					<div class="form-group">
-						<label for="text">Nom de famille</label>
+						<label for="lastname">Nom de famille</label>
 						{% if validation.hasError('lastname') %}
 							<div>{{validation.getError("lastname")}}
 							</div>
@@ -60,7 +61,7 @@
 						<input type="text" class="form-control" name="lastname" id="lastname" value="">
 					</div>
 					<div class="form-group">
-						<label for="text">Adresse</label>
+						<label for="adresse1">Adresse</label>
 						{% if validation.hasError('adresse1') %}
 							<div>{{validation.getError("adresse1")}}
 							</div>
@@ -68,7 +69,7 @@
 						<input type="text" class="form-control" name="adresse1" id="adresse1" value="">
 					</div>
 					<div class="form-group">
-						<label for="text">Complement d'adresse</label>
+						<label for="adresse2">Complement d'adresse</label>
 						{% if validation.hasError('adresse2') %}
 							<div>{{validation.getError("adresse2")}}
 							</div>
@@ -76,7 +77,7 @@
 						<input type="text" class="form-control" name="adresse2" id="adresse2" value="">
 					</div>
 					<div class="form-group">
-						<label for="text">Code postal</label>
+						<label for="Zipcode">Code postal</label>
 
 						{% if validation.hasError('zipcode') %}
 							<div>{{validation.getError("zipcode")}}
@@ -85,7 +86,7 @@
 						<input type="text" class="form-control" name="zipcode" id="Zipcode" value="">
 					</div>
 					<div class="form-group">
-						<label for="text">Ville</label>
+						<label for="city">Ville</label>
 						{% if validation.hasError('city') %}
 							<div>{{validation.getError("city")}}
 							</div>
@@ -102,7 +103,7 @@
 						{{ form_close }}
 					</div>
 					<br><br>Complexité du mot de passe :
-					<meter value="0" low="3" high="5" min="0" max="5" id="pwd_meter">0%</meter><br>
+					<meter value="0" low="2"  high="4" optimum="5" min="0" max="5" id="pwd_meter">0%</meter><br>
 
 					<ul><br>
 						<li>

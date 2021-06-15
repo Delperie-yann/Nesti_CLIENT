@@ -5,7 +5,7 @@ namespace App\Controllers;
 use App\Models\UsersModel;
 use App\Entities\Users;
 use App\Config\Services;
-
+use App\Models\ConnectionLogModel;
 
 class UserController extends BaseController
 {
@@ -37,8 +37,8 @@ class UserController extends BaseController
 
         if (!empty($_POST)) {
             $error = 0;
-            $login     = $this->request->getPost('login');
-            $password     = $this->request->getPost('password');
+            $login     = $this->request->getPost('login',FILTER_SANITIZE_STRING);
+            $password     = $this->request->getPost('password',FILTER_SANITIZE_STRING);
 
             // Chek if login is type min Xxxx or max X+x*30
             if (!preg_match("/^[A-Z]{1}[a-z]{3,20}/", $login)) {
@@ -63,6 +63,11 @@ class UserController extends BaseController
                     if ($isPassword) {
 
                         self::setLoggedInUser($userIsNotBlocked, $password);
+                        $modelLog= new ConnectionLogModel();
+                     
+                        $dataLog = ['idUsers'=>$userIsNotBlocked->idUsers];
+                        $modelLog->insert($dataLog);
+                     
                         $this->twig->display('templates/intro.html', ['user' => $userIsNotBlocked]);
                     } else {
                         $this->twig->display('templates/login.html');
@@ -155,11 +160,12 @@ class UserController extends BaseController
                     ]
                 ],
                 "password" => [
-                    "rules" => 'required|regex_match[/^(.{0,20}|[^a-z]*|[^\d]*)$/]|min_length[8]',
+                    "rules" => 'required|regex_match[/^(.{0,30}|[^a-z]*|[^\d]*)$/]|min_length[8]|max_length[30]',
                     "errors" => [
                         "required" => "Il vous faut un mot de passe",
                         "regex_match" => "Votre mot de pass est trop faible...",
-                        "min_length" => "Votre mot de passe est trop court"
+                        "min_length" => "Votre mot de passe est trop court",
+                        "max_length" => "Votre mot de passe est trop long"
 
                     ]
                 ],
@@ -215,15 +221,15 @@ class UserController extends BaseController
          
             if ($this->validate($rules)) {
           
-                $lastName  = $this->request->getPost('lastname');
-                $firstName = $this->request->getPost('firstname');
-                $town      = $this->request->getPost("city");
-                $login     = $this->request->getPost('login');
-                $email     = $this->request->getPost('email');
-                $address1  = $this->request->getPost('adresse1');
-                $address2  = $this->request->getPost('adresse2');
-                $password  = $this->request->getPost('password');
-                $zipcode  = $this->request->getPost('zipcode');
+                $lastName  = $this->request->getPost('lastname',FILTER_SANITIZE_STRING);
+                $firstName = $this->request->getPost('firstname',FILTER_SANITIZE_STRING);
+                $town      = $this->request->getPost("city",FILTER_SANITIZE_STRING);
+                $login     = $this->request->getPost('login',FILTER_SANITIZE_STRING);
+                $email     = $this->request->getPost('email',FILTER_SANITIZE_EMAIL);
+                $address1  = $this->request->getPost('adresse1',FILTER_SANITIZE_STRING);
+                $address2  = $this->request->getPost('adresse2',FILTER_SANITIZE_STRING);
+                $password  = $this->request->getPost('password',FILTER_SANITIZE_STRING);
+                $zipcode  = $this->request->getPost('zipcode',FILTER_SANITIZE_NUMBER_INT);
                 $userAllReady = $model->where("login",  $login)->find();
                 if ($userAllReady == array()) {
                     $dataUser = [

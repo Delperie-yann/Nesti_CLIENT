@@ -14,6 +14,6 @@ class CityModel extends Model
     protected $allowedFields = ['idCity','name'];
     protected $returnType    = 'App\Entities\City';
     // protected $useTimestamps = true;
-  
+    protected $primaryKey = 'idCity';
 
 }

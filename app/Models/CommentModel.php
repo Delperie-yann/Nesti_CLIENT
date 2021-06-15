@@ -11,7 +11,7 @@ class CommentModel extends Model
       /**
      * @var array<string> $allowedFields 
      */
-    protected $allowedFields = ['idRecipe','idUsers','commentTitle','commentContent','flag'];
+    protected $allowedFields = ['idRecipe','idUsers','commentTitle','commentContent','dateCreation','flag','idModerator'];
     protected $returnType    = 'App\Entities\Comment';
     protected $primaryKey = 'idUsers';
 

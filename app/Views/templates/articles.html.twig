@@ -8,24 +8,30 @@
 		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
 			{% for art in article %}
 				{% if art.flag != "b" %}
-				
+
 
 					<div class="col mb-4">
 						<div class="card">
 							<a href="{{base_url("/detailsArticle")}}/{{art.idArticle}}">
-								<img src="{{base_url("../images/ingredients/"~ art.getImageName(art.idImage)~"."~ art.getImageExtend(art.idImage))}}" class="card-img-top" alt="Responsive image of this card">
+								<img src="https://delperie.needemand.com/realisations/PHP_Nesti_Site/public/img/articles/{{art.getImageName(art.idImage)~"."~ art.getimageextend(art.idimage)}}" class="card-img-top" alt="Responsive image of this card">
 							</a>
 							<div class="card-body">
-								<h5 class="card-title text-center">{{art.getNameOfArticle(art.idProduct)}}</h5>
+								<h5 class="card-title text-center">
+									{% if art.realName == NULL %}
+										{{art.getNameOfArticle()}}
+									{% else %}
+										{{art.realName}}
+									{% endif %}
+								</h5>
 								<p class="card-text text-center">Etat:
-									{% if art.flag =="w" or (art.getPrice(art.idArticle) == 0 ) or  (art.getLotQuant(art.idArticle)==0) %}
+									{% if art.flag =="w" or (art.getPrice() == 0 ) or  (art.getLotQuant()==0) %}
 										En rupture
 									{% elseif  art.flag =="a" %}
 										Actif
 									{% endif %}
 								</p>
 								<p class="card-text text-center">Prix :
-									{{(art.unitQuantity) * (art.getPrice(art.idArticle))}}
+									{{(art.unitQuantity) * (art.getPrice())}}
 									euro
 								</p>
 								<a href="{{base_url("/detailsArticle")}}/{{art.idArticle}}" class="btn Detail d-block">Detail de l'article</a>

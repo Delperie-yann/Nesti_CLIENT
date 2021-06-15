@@ -5,31 +5,42 @@
 		<div class="container">
 			<h2 class=" text-center">Detail de l'article</h2>
 
-			<h3 class="font-weight-bold pt-5 text-center">{{art.getNameOfArticle(art.idProduct)}}</h3>
+			<h3 class="font-weight-bold pt-5 text-center">
+				{% if art.realName == NULL %}
+					{{art.getNameOfArticle()}}
+				{% else %}
+					{{art.realName}}
+				{% endif %}
+			</h3>
 
-			<img src="{{base_url("../images/ingredients/"~ art.getImageName(art.idImage)~"."~ art.getImageExtend(art.idImage))}}" class="rounded mx-auto d-block" alt="Responsive image of this ingredient">
+			<img src="https://delperie.needemand.com/realisations/PHP_Nesti_Site/public/img/articles/{{art.getImageName(art.idImage)~"."~ art.getimageextend(art.idimage)}}" class="rounded mx-auto d-block" alt="Responsive image of this ingredient">
 			<h3 class="font-weight-bold pt-5 ">Recette contenant l'article</h3>
 			<div class="card w-100">
 				<div class="card-body">
 					{% if compose != NULL %}
-				
-					
+
+
 						{% for row in compose %}
 							<p class="card-text">
-						
-						<a href="{{base_url("/detailsRecipe")}}/{{row.idRecipe}}">{{ row.name }}</a>
-						
+
+								<a href="{{base_url("/detailsRecipe")}}/{{row.idRecipe}}">{{ row.name }}</a>
+
 							</p>
 						{% endfor %}
 					</div>
 				{% endif %}
 			</div>
+			<pre>
+			
+			</pre>
 			{% if user.login != NULL %}
-				{% if art.flag == "a" %}
+			{% if ((art.flag =="a") and (art.getPrice() != 0 ) and (art.getLotQuant()!=0)) %}
 				
-				
+
+
 					<div class="d-flex justify-content-center p-2">
-						<button id='but' type="button" onclick="add()" data-name="{{ art.getNameOfArticle(art.idProduct) }}" data-quantity="{{ art.unitQuantity }}" data-price="{{(art.unitQuantity) * (art.getPrice(art.idArticle))}}" class="btn btn-info">Ajouter au panier</button>
+
+						<button id='but' type="button" data-name="{{ art.getNameOfArticle() }}" data-quantity="{{ art.unitQuantity }}" data-price="{{(art.unitQuantity) * (art.getPrice(art.idArticle))}}" class="btn btn-info">Ajouter au panier</button>
 					</div>
 				{% endif %}
 			{% endif %}

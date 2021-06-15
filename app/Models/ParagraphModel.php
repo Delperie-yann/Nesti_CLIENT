@@ -13,7 +13,7 @@ class ParagraphModel extends Model
      */
     protected $allowedFields = ['idParagraph','content','paragraphPosition','dateCreation','idRecipe'];
     protected $returnType    = 'App\Entities\Paragraph';
-
+    protected $primaryKey = 'idParagraph';
        /**
      * @param string $idRecipe
      * @return Paragraph|array<string>

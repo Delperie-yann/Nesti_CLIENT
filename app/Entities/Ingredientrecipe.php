@@ -13,10 +13,10 @@ class Ingredientrecipe extends Entity
     * @param string $number
     * @return UnitModel|string
     */
-   public function getUnit(string $number)
+   public function getUnit()
    {
       $unit = new UnitModel();
-      $compose = $unit->where('idUnit', $number)->find();
+      $compose = $unit->where('idUnit', $this->idUnit)->find();
       $idNameUnit =  $compose? $compose[0]->name:"";
       return   $idNameUnit;
    }
@@ -24,10 +24,10 @@ class Ingredientrecipe extends Entity
     * @param string $number
     * @return ProductModel|string
     */
-   public function getProdName(string $number)
+   public function getProdName()
    {
       $prod = new ProductModel();
-      $product = $prod->where('idProduct', $number)->find();
+      $product = $prod->where('idProduct', $this->idProduct)->find();
 
       $idNameProd = $product?$product[0]->name:"";
       return   $idNameProd;

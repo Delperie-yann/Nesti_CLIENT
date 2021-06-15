@@ -60,7 +60,8 @@ class RecipeController extends BaseController
 		$paragraph = new ParagraphModel();
 		$Prep = $paragraph->where('idRecipe', $id)->findAll();
 		$comp = new IngredientrecipeModel();
-		$compose = $comp->where('idRecipe', $id)->find();
+	
+		$compose = $comp->where('idRecipe', $id)->findAll();
 
 
 		$user = UserController::getLoggedInUser();
@@ -90,9 +91,9 @@ class RecipeController extends BaseController
 	{
 		helper("form");
 		$user  = UserController::getLoggedInUser();
-		$commentTitle  =  $this->request->getPost('titleCom');
-		$commentContent =  $this->request->getPost('textCom');
-		$rating =  $this->request->getPost('rating');
+		$commentTitle  =  $this->request->getPost('titleCom',FILTER_SANITIZE_STRING);
+		$commentContent =  $this->request->getPost('textCom',FILTER_SANITIZE_STRING);
+		$rating =  $this->request->getPost('rating',FILTER_SANITIZE_NUMBER_INT);
 		if ($rating != NULL) {
 			$dataGrade = [
 				'idUsers' => $user->idUsers,

@@ -14,6 +14,6 @@ class ArticlePriceModel extends Model
     protected $allowedFields = ['idArticlePrice','dateStart','price','idArticle'];
     protected $returnType    = 'App\Entities\ArticlePrice';
     // protected $useTimestamps = true;
-  
+    protected $primaryKey = 'idArticlePrice';
 
 }

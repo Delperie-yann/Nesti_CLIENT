@@ -2,61 +2,55 @@
 {% block body %}
 	{% if user.login != NULL %}
 		<div class="container">
-
 			<h2>Gestion de compte utilisateur</h2>
 			<div class="row mt-12 ">
-
-				<div
-					class="col ">
-				
+				<div class="col ">
 					{{ form_open ( base_url('/profile'))   }}
-					<p class="mt-5">Nom</p>
+					<label for="userLastname" class="mt-5">Nom</label>
 					{% if validation.hasError('userLastname') %}
 						<div class="alert alert-danger  w-50">{{validation.getError("userLastname")}}
 						</div>
 					{% endif %}
 					<input type="text" class="w-75" name="userLastname" value="{{user.lastName }}" required>
 
-					<p class="mt-5">Prénom</p>
+					<label for="userFirstname" class="mt-5">Prénom</label>
 					{% if validation.hasError('userFirstname') %}
 						<div class="alert alert-danger  w-50">{{validation.getError("userFirstname")}}
 						</div>
 					{% endif %}
 					<input type="text" class="w-75" name="userFirstname" value="{{user.firstName }}" required>
 
-				<p class="mt-5">Ville</p>
-				{% if validation.hasError('userTown') %}
-					<div class="alert alert-danger  w-50">{{validation.getError("userTown")}}
-					</div>
-				{% endif %}
-				<input type="text" class="w-75" name="userTown" value="{{user.getTown(user.idCity )}}" required>
+					<label for="userTown" class="mt-5">Ville</label>
+					{% if validation.hasError('userTown') %}
+						<div class="alert alert-danger  w-50">{{validation.getError("userTown")}}
+						</div>
+					{% endif %}
+					<input type="text" class="w-75" name="userTown" value="{{user.getTown(user.idCity )}}" required>
 
-
-					
 
 				</div>
 				<div class="col ">
-					<p class="mt-5">Adresse</p>
+					<label for="userAddress1" class="mt-5">Adresse</label>
 					{% if validation.hasError('userAddress1') %}
 						<div class="alert alert-danger  w-50">{{validation.getError("userAddress1")}}
 						</div>
 					{% endif %}
 					<input type="text" class="w-75" name="userAddress1" value="{{user.address1 }}" required>
 
-					<p class="mt-5">Complement d'adresse</p>
+					<label for="userAddress2" class="mt-5">Complement d'adresse</label>
 					{% if validation.hasError('userAddress2') %}
 						<div class="alert alert-danger  w-50">{{validation.getError("userAddress2")}}
 						</div>
 					{% endif %}
 					<input type="text" class="w-75" name="userAddress2" value="{{user.address2 }}">
-					<p class="mt-5">Zipcode</p>
+					
+					<label for="userZipCode" class="mt-5">Zipcode</label>
 					{% if validation.hasError('userZipCode') %}
 						<div class="alert alert-danger  w-50">{{validation.getError("userZipCode")}}
 						</div>
 					{% endif %}
 					<input type="text" class="w-75" name="userZipCode" value="{{user.zipCode }}" required>
 
-					
 
 					<div class="row">
 						<div class="d-flex justify-content-center p-2">

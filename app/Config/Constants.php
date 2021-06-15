@@ -78,16 +78,3 @@ defined('EXIT_DATABASE')       || define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      || define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      || define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
-
-
-// define('BASE_URL','http://127.0.0.1/www/Nesti_CodeIngniterdebug/public/');
-// define('BASE_URL2','http://127.0.0.1/www/Nesti_CodeIngiter/public/');
-// define('PATH_CTRL','app/controller');
-// define('PATH_ERROR','app/controller/error/');
-// define('PATH_VIEW','app/view');
-// define('PATH_COMMUN','app/view/common');
-// define('PATH_CONTENT','app/view/content');
-// define('DSN',"mysql:dbname=php_nesti;host=localhost");
-// define('USERNAME',"root");
-// define('PATH_MODEL',"App/Model/");
-// define('PWD',"");

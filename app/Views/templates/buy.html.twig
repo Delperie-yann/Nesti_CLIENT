@@ -1,9 +1,39 @@
 {% extends "base.html.twig" %}
 {% block body %}
 	{% if user.login != NULL %}
+	
+		{% if validationpay  %}
+			<div id="login-row" class="row justify-content-center align-items-center">
+				<div id="login-column" class="col-md-6">
+					<div class="alert alert-success text-center" role="alert">
+					Payment enregister de M. {{user.lastName}} 
+					</div>
+				</div>
+			</div>
+		{% endif %}
+		{% if errorNumber  %}
+		<div id="login-row" class="row justify-content-center align-items-center">
+		<div id="login-column" class="col-md-6">
+			<div class="alert alert-warning text-center" role="alert">
+			Erreur dans a saisie des chiffres
+			</div>
+		</div>
+	</div>
+	{% endif %}
+	{% if error  %}
+	<div id="login-row" class="row justify-content-center align-items-center">
+	<div id="login-column" class="col-md-6">
+		<div class="alert alert-warning text-center" role="alert">
+		Erreur dans le code de carte : numero invalide
+		</div>
+	</div>
+</div>
+{% endif %}
 		<div class="container">
+
 			<h2 class=" text-center">Panier</h2>
 			<h3 class="font-weight-bold pt-5 ">Liste des articles</h3>
+			{{ form_open ( base_url('/buy') ) }}
 			<div class="card w-100">
 				<div class="card-body">
 					<table class="table">
@@ -26,52 +56,67 @@
 					</div>
 				</div>
 			</div>
-			{{ form_open ( base_url('/buy') ) }}
+
+
 			<div class="modal-footer">
-				<button class="btn btn-success" type="submit" name="validateOrder" data-toggle="modal" data-target="#exampleModal" data-dismiss="modal">Valider</button>
+				<button class="btn btn-success" type="submit" name="validateOrder">Valider</button>
 			</div>
+
+
 			{{ validation.errors ? validation.errors.name}}
 			{{ form_close }}
 			{% if launchBuy == true %}
-				<div class="container-fluid">
-					<div class="row d-flex justify-content-center">
-						<div class="col-sm-12">
-							<div class="card mx-auto">
-								<label class="heading">PAYMENT DETAILS</label>
-								<form class="card-details ">
-									<div class="form-group mb-0">
-										<label class="text-white bg-dark mb-0">Card Number</label>
-										<input type="text" name="card-num" placeholder="1234 5678 9012 3457" size="17" id="cno" minlength="19" maxlength="19">
-										<img src="https://img.icons8.com/color/48/000000/visa.png" width="64px" height="60px"/>
-									</div>
-									<div class="form-group">
-										<label class="text-white bg-dark mb-0">Cardholder's Name</label>
-										<input type="text" name="name" placeholder="Name" size="17">
-									</div>
-									<div class="form-group pt-2">
-										<div class="row d-flex">
-											<div class="col-sm-4">
-												<label class="text-white bg-dark mb-0">Expiration</label>
-												<input type="text" name="exp" placeholder="MM/YYYY" size="7" id="exp" minlength="7" maxlength="7">
+				<div class="container">
+					<div class="container-fluid">
+						<div class="row d-flex justify-content-center">
+							<div class="col-sm-12">
+								<div class="card mx-auto">
+									<label class="heading">PAYMENT DETAILS</label>
+									<div class="card-details ">
+										{{ form_open ( base_url('/luhnpayment') ) }}
+										<form>
+											<div class="form-group mb-0">
+												<label class="text-white bg-dark mb-0">Numero de carte</label>
+												<input type="text" name="card-num" placeholder="1234 5678 9012 3457" size="16" id="cno" minlength="16" maxlength="16">
+												<img src="https://img.icons8.com/color/48/000000/visa.png" width="64px" height="60px" alt="visa image"/>
 											</div>
-											<div class="col-sm-3">
-												<label class="text-white bg-dark mb-0">Cvv</label>
-												<input type="password" name="cvv" placeholder="&#9679;&#9679;&#9679;" size="1" minlength="3" maxlength="3">
+											<div class="form-group">
+												<label class="text-white bg-dark mb-0">Nom du propietaire de la carte</label>
+												<input type="text" name="name" placeholder="Name" size="17">
 											</div>
-											<div class="col-sm-5 pt-0">
-												<button type="button" class="btn btn-primary">
-													<i class="fas fa-arrow-right px-3 py-2">Payer</i>
-												</button>
+											<div class="form-group pt-2">
+												<div class="row d-flex">
+													<div class="col-sm-4">
+														<label class="text-white bg-dark mb-0">Expiration</label>
+														<input type="text" name="exp" placeholder="MM/YYYY" size="7" id="exp" minlength="7" maxlength="7">
+													</div>
+													<div class="col-sm-3">
+														<label class="text-white bg-dark mb-0">Cvv</label>
+														<input type="password" name="cvv" placeholder="&#9679;&#9679;&#9679;" size="1" minlength="3" maxlength="3">
+													</div>
+													<div class="col-sm-5 pt-0">
+
+														<button class="btn btn-primary" type="submit" name="validatepayment">
+															<i class="fas fa-arrow-right px-3 py-2">Payer</i>
+														</button>
+
+													</div>
+
+												</div>
 											</div>
-										</div>
+										</form>
+										{{ validation.errors ? validation.errors.name}}
+										{{ form_close }}
+
 									</div>
-								</form>
+
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
 
+				</div>
+
+			{% endif %}
 		{% endif %}
-	{% endif %}
-{% endblock %}
+	{% endblock %}

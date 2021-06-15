@@ -12,6 +12,6 @@ class ProductModel extends Model
      */
  protected $allowedFields = ['idProduct'];
  protected $returnType    = 'App\Entities\Product';
-
+ protected $primaryKey = 'idProduct';
 
 }

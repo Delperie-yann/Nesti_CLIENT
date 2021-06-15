@@ -11,8 +11,8 @@ class GradesModel extends Model
       /**
      * @var array<string> $allowedFields 
      */
-    protected $allowedFields = ['idRecipe','idRecipe','rating'];
+    protected $allowedFields = ['idUsers','idRecipe','rating'];
     protected $returnType    = 'App\Entities\Grades';
-    // protected $primaryKey = 'idUsers';
+    protected $primaryKey = 'idUsers';
     
 }

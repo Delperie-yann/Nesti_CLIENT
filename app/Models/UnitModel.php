@@ -11,10 +11,10 @@ class UnitModel extends Model
     /**
      * @var array<string> $allowedFields 
      */
-    protected $allowedFields = ['idUnit'];
+    protected $allowedFields = ['idUnit','name'];
     protected $returnType    = 'App\Entities\Unit';
     // protected $useTimestamps = true;
-
+    protected $primaryKey = 'idUnit';
 
   
 }

@@ -13,7 +13,7 @@ class ArticlesModel extends Model
      */
     protected $allowedFields = ['idArticle','unitQuantity','flag','dateCreation','dateModification','idImage','idUnit','idProduct','realName'];
     protected $returnType    = 'App\Entities\Articles';
- 
+    protected $primaryKey = 'idArticle';
   
 
 }

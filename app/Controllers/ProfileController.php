@@ -9,9 +9,9 @@ class ProfileController extends BaseController
 {
   public function index()
   {
-
+    $data["slug"]="profile";
     helper("form");
-
+  
     $user        = UserController::getLoggedInUser();
     $data = [
       'user' => $user,
@@ -55,13 +55,13 @@ class ProfileController extends BaseController
         ],
       ];
       if ($this->validate($rules)) {
-        $lastName  = $this->request->getPost('userLastname');
-        $firstName = $this->request->getPost('userFirstname');
-        $town      = $this->request->getPost("userTown");
+        $lastName  = $this->request->getPost('userLastname',FILTER_SANITIZE_STRING);
+        $firstName = $this->request->getPost('userFirstname',FILTER_SANITIZE_STRING);
+        $town      = $this->request->getPost("userTown",FILTER_SANITIZE_STRING);
       
-        $address1  = $this->request->getPost('userAddress1');
-        $address2  = $this->request->getPost('userAddress2');
-        $zipCode   = $this->request->getPost('userZipCode');
+        $address1  = $this->request->getPost('userAddress1',FILTER_SANITIZE_STRING);
+        $address2  = $this->request->getPost('userAddress2',FILTER_SANITIZE_STRING);
+        $zipCode   = $this->request->getPost('userZipCode',FILTER_SANITIZE_NUMBER_INT);
 
         $dataUser = [
           'lastName'  => $lastName,

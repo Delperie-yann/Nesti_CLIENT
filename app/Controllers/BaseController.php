@@ -50,24 +50,6 @@ class BaseController extends Controller
 	}
 
 
-	// 	//--------------------------------------------------------------------
-	// 	// Preload any models, libraries, etc, here.
-	// 	//--------------------------------------------------------------------
-	// 	// E.g.: $this->session = \Config\Services::session();
-	// }
 
-	// public function renderTemplate(string $page = 'home', array $data = [])
-	// {
-	// 	if (!is_file(APPPATH . '/Views/' . $page . '.php')) {
-	// 		// Whoops, we don't have a page for that!
-	// 		throw new \CodeIgniter\Exceptions\PageNotFoundException($page);
-	// 	}
 
-	// 	$i = strrpos($page, "/");
-	// 	$title = str_replace('-', ' ', substr($page, $i + 1));
-	// 	$data['title'] = ucwords($title);
-	// 	echo view('templates/header', $data);
-	// 	echo view('' . $page, $data);
-	// 	echo view('templates/footer', $data);
-	// }
 }

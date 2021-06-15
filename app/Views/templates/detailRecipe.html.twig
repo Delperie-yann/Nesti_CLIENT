@@ -7,10 +7,12 @@
 			{% if rec.getCat() %}
 				<a class="btntag" href='{{base_url('/recipes/') ~ '/' ~ rec.idCat}}'>{{rec.getCat()}}</a>
 			{% endif %}
-			<h3 class="font-weight-bold pt-5 text-center">{{rec.name}}</h3>
+			<h3 class="font-weight-bold pt-5 text-center">
+		
+		{{rec.name}}</h3>
 			<div>
 
-				<img src="{{base_url("../images/recettes/"~ rec.getImageName(rec.idImage)~"."~ rec.getImageExtend(rec.idImage))}}" class="rounded mx-auto d-block" alt="Responsive image of this recipe">
+				<img src="https://delperie.needemand.com/realisations/PHP_Nesti_Site/public/img/recipes/{{rec.getImageName(rec.idImage)~"."~ rec.getImageExtend(rec.idImage)}}" class="rounded mx-auto d-block" alt="Responsive image of this recipe">
 			</div>
 			<h3 class="font-weight-bold pt-5 ">Composition</h3>
 			<div class="card w-100">
@@ -24,9 +26,9 @@
 						<p class="card-text">
 							-
 							{{composed.quantity}}
-							{{composed.getUnit(composed.idUnit)}}
+							{{composed.getUnit()}}
 							de
-							{{composed.getProdName(composed.idUnit)}}</p>
+							{{composed.getProdName()}}</p>
 					{% endfor %}
 				</div>
 			</div>
