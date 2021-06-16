@@ -1,63 +1,64 @@
 {% extends "base.html.twig" %}
 {% block body %}
-	{% if user.login != NULL %}
-	
-		{% if validationpay  %}
-			<div id="login-row" class="row justify-content-center align-items-center">
-				<div id="login-column" class="col-md-6">
-					<div class="alert alert-success text-center" role="alert">
-					Payment enregister de M. {{user.lastName}} 
-					</div>
+
+
+	{% if validationpay  %}
+		<div id="login-row" class="row justify-content-center align-items-center">
+			<div id="login-column" class="col-md-6">
+				<div class="alert alert-success text-center" role="alert">
+					Payment enregister de M.
+					{{user.lastName}}
 				</div>
 			</div>
-		{% endif %}
-		{% if errorNumber  %}
+		</div>
+	{% endif %}
+	{% if errorNumber  %}
 		<div id="login-row" class="row justify-content-center align-items-center">
-		<div id="login-column" class="col-md-6">
-			<div class="alert alert-warning text-center" role="alert">
-			Erreur dans a saisie des chiffres
+			<div id="login-column" class="col-md-6">
+				<div class="alert alert-warning text-center" role="alert">
+					Erreur dans la saisie des chiffres
+				</div>
 			</div>
 		</div>
-	</div>
 	{% endif %}
 	{% if error  %}
-	<div id="login-row" class="row justify-content-center align-items-center">
-	<div id="login-column" class="col-md-6">
-		<div class="alert alert-warning text-center" role="alert">
-		Erreur dans le code de carte : numero invalide
+		<div id="login-row" class="row justify-content-center align-items-center">
+			<div id="login-column" class="col-md-6">
+				<div class="alert alert-warning text-center" role="alert">
+					Erreur dans le code de carte : numero invalide
+				</div>
+			</div>
 		</div>
-	</div>
-</div>
-{% endif %}
-		<div class="container">
+	{% endif %}
+	<div class="container">
 
-			<h2 class=" text-center">Panier</h2>
-			<h3 class="font-weight-bold pt-5 ">Liste des articles</h3>
-			{{ form_open ( base_url('/buy') ) }}
-			<div class="card w-100">
-				<div class="card-body">
-					<table class="table">
-						<thead id="nameCast">
-							<tr>
-								<th scope="col">Nom</th>
-								<th scope="col">Quantity</th>
-								<th scope="col">Modification</th>
-								<th scope="col">Prix Unité</th>
-								<th scope="col">Prix Total</th>
-							</tr>
-						</thead>
-						<tbody id="nameCast"></tbody>
-					</table>
-					<div class="modal-footer">
-						<div class="btn btn-info">
-							<label class="mt-3" for="">Total :</label>
-							<span id="result" class="ml-2 text-center">0€</span>
-						</div>
+		<h2 class=" text-center">Panier</h2>
+		<h3 class="font-weight-bold pt-5 ">Liste des articles</h3>
+		{{ form_open ( base_url('/buy') ) }}
+		<div class="card w-100">
+			<div class="card-body">
+				<table class="table">
+					<thead id="nameCast">
+						<tr>
+							<th scope="col">Nom</th>
+							<th scope="col">Quantity</th>
+							<th scope="col">Modification</th>
+							<th scope="col">Prix Unité</th>
+							<th scope="col">Prix Total</th>
+						</tr>
+					</thead>
+					<tbody id="nameCast"></tbody>
+				</table>
+				<div class="modal-footer">
+					<div class="btn btn-info">
+						<label class="mt-3" for="">Total :</label>
+						<span id="result" class="ml-2 text-center">0€</span>
 					</div>
 				</div>
 			</div>
+		</div>
 
-
+		{% if user.login != NULL %}
 			<div class="modal-footer">
 				<button class="btn btn-success" type="submit" name="validateOrder">Valider</button>
 			</div>
