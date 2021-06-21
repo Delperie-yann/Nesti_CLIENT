@@ -10,7 +10,7 @@ class ProductModel extends Model
    /**
      * @var array<string> $allowedFields 
      */
- protected $allowedFields = ['idProduct'];
+ protected $allowedFields = ['idProduct','name'];
  protected $returnType    = 'App\Entities\Product';
  protected $primaryKey = 'idProduct';
 

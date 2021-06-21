@@ -76,9 +76,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         });
-        var addButton = content.querySelectorAll('td>:nth-child(1)');
+        var decrButton = content.querySelectorAll('td>:nth-child(1)');
    
-        addButton.forEach(element => {
+        decrButton.forEach(element => {
 
             element.addEventListener('click', decreases);
 

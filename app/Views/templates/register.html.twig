@@ -16,7 +16,7 @@
 						</label>
 					
 						{% if validation.hasError('login') %}
-							<div>{{validation.getError("login")}}
+							<div class="alert alert-danger text-center" role="alert">>{{validation.getError("login")}}
 							</div>
 						{% endif %}
 						<input type="text" class="form-control" name="login" id="login" value="" require>
@@ -27,7 +27,7 @@
 							</b>
 						</label>
 						{% if validation.hasError('email') %}
-							<div>{{validation.getError("email")}}
+							<div class="alert alert-danger text-center" role="alert">>{{validation.getError("email")}}
 							</div>
 						{% endif %}
 						<input type="text" class="form-control" name="email" id="email" value="" required>
@@ -37,7 +37,7 @@
 							</b>
 						</label>
 						{% if validation.hasError('password') %}
-							<div>{{validation.getError("password")}}
+							<div class="alert alert-danger text-center" role="alert">>{{validation.getError("password")}}
 							</div>
 						{% endif %}
 						<input class="form-control" type="password" class="w-75" name="password" id="pwd" required>
@@ -47,7 +47,7 @@
 					<div class="form-group">
 						<label for="firstname">Prénom</label>
 						{% if validation.hasError('firstname') %}
-							<div>{{validation.getError("firstname")}}
+							<div class="alert alert-danger text-center" role="alert">>{{validation.getError("firstname")}}
 							</div>
 						{% endif %}
 						<input type="text" class="form-control" name="firstname" id="firstname" value="">
@@ -55,7 +55,7 @@
 					<div class="form-group">
 						<label for="lastname">Nom de famille</label>
 						{% if validation.hasError('lastname') %}
-							<div>{{validation.getError("lastname")}}
+							<div class="alert alert-danger text-center" role="alert">>{{validation.getError("lastname")}}
 							</div>
 						{% endif %}
 						<input type="text" class="form-control" name="lastname" id="lastname" value="">
@@ -63,7 +63,7 @@
 					<div class="form-group">
 						<label for="adresse1">Adresse</label>
 						{% if validation.hasError('adresse1') %}
-							<div>{{validation.getError("adresse1")}}
+							<div class="alert alert-danger text-center" role="alert">>{{validation.getError("adresse1")}}
 							</div>
 						{% endif %}
 						<input type="text" class="form-control" name="adresse1" id="adresse1" value="">
@@ -71,7 +71,7 @@
 					<div class="form-group">
 						<label for="adresse2">Complement d'adresse</label>
 						{% if validation.hasError('adresse2') %}
-							<div>{{validation.getError("adresse2")}}
+							<div class="alert alert-danger text-center" role="alert">>{{validation.getError("adresse2")}}
 							</div>
 						{% endif %}
 						<input type="text" class="form-control" name="adresse2" id="adresse2" value="">
@@ -80,7 +80,7 @@
 						<label for="Zipcode">Code postal</label>
 
 						{% if validation.hasError('zipcode') %}
-							<div>{{validation.getError("zipcode")}}
+							<div class="alert alert-danger text-center" role="alert">>{{validation.getError("zipcode")}}
 							</div>
 						{% endif %}
 						<input type="text" class="form-control" name="zipcode" id="Zipcode" value="">
@@ -88,7 +88,7 @@
 					<div class="form-group">
 						<label for="city">Ville</label>
 						{% if validation.hasError('city') %}
-							<div>{{validation.getError("city")}}
+							<div class="alert alert-danger text-center" role="alert">>{{validation.getError("city")}}
 							</div>
 						{% endif %}
 						<input type="text" class="form-control" name="city" id="city" value="">

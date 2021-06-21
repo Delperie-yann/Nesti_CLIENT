@@ -160,7 +160,7 @@ class UserController extends BaseController
                     ]
                 ],
                 "password" => [
-                    "rules" => 'required|regex_match[/^(.{0,30}|[^a-z]*|[^\d]*)$/]|min_length[8]|max_length[30]',
+                    "rules" => 'required|regex_match[/^(.{0,30}|[^a-z]*|[^\d]*)$/]|min_length[10]|max_length[30]',
                     "errors" => [
                         "required" => "Il vous faut un mot de passe",
                         "regex_match" => "Votre mot de pass est trop faible...",
@@ -238,7 +238,7 @@ class UserController extends BaseController
                         'firstName'    => $firstName,
                         'login'        => $login,
                         'passwordHash' => password_hash($password, PASSWORD_DEFAULT),
-                        'address1'     => $address1,
+                        'address1'    => $address1,
                         'address2'     => $address2,
                         'zipCode'      => $zipcode,
                         'idCity'       => ProfileController::towncontrole($town),
