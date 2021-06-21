@@ -40,7 +40,10 @@
 
 					<div class="d-flex justify-content-center p-2">
 
-						<button id='but' type="button" data-name="{{ art.getNameOfArticle() }}" data-quantity="{{ art.unitQuantity }}" data-price="{{(art.unitQuantity) * (art.getPrice(art.idArticle))}}" class="btn btn-info">Ajouter au panier</button>
+						<button id='but' type="button" data-name="{{ art.getNameOfArticle() }}" 
+														data-quantity="{{ art.unitQuantity }}" 
+														data-price="{{(art.unitQuantity) * (art.getPrice(art.idArticle))}}" 
+							class="btn btn-info">Ajouter au panier</button>
 					</div>
 				{% endif %}
 			{% endif %}
