@@ -24,7 +24,6 @@
 		{{include('templates/header.html.twig')}}
 		<div class="main">
 			<main>
-test
 				{% block body %}{% endblock %}
 			</main>
 		</div>
@@ -38,11 +37,15 @@ test
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<script src="{{base_url('json/recipe.json')}}"></script>
 		<script src="{{base_url('js/scriptPanier.js')}}"></script>
+
 		{% if slug == "suggest" %}
+
 			<script src="{{base_url('js/function.js')}}"></script>
 			<script src="{{base_url('js/listObjects.js')}}"></script>
 			<script src="{{base_url('js/createObjects.js')}}"></script>
 			<script src="{{base_url('js/managementCard.js')}}"></script>
+		{% elseif slug == "user" %}
+	<script src="{{base_url('js/addUsers.js')}}"></script>
 		{% elseif slug == "suggest" %}
 
 		{% elseif slug == "article" %}

@@ -23,8 +23,9 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $baseURL="http://127.0.0.1/www/Nesti_CodeIngiter/public/";
+	public $baseURL="http://127.0.0.1/www/Nesti_CodeIngniterdebug/public/";
 //public $baseURL="https://delperie.needemand.com/realisations/Nesti_CodeIngniterdebug/public/";
+//public $baseURL="https://delperie.needemand.com/realisations/NESTI_CLIENT2/public/";
 	/**
 	 * --------------------------------------------------------------------------
 	 * Index File

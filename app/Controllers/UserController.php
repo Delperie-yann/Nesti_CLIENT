@@ -138,7 +138,7 @@ class UserController extends BaseController
         helper(['form']);
 
         $model = new UsersModel();
-        $data = [];
+      
         if (isset($_POST['profileRegister'])) {
 
             $rules = [
